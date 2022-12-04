@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        .table1 tr {
+            height: 50px;
+        }
+        .table2 {
+            border: 1px solid grey;
+        }
+        .table2 tr {
+            height: 20px;
+        }
+        .table4 {
+            border-collapse: initial;
+        }
+        .table4 img {
+            width: 75px;
+        }
+    </style>
+</head>
+<body>
+<p>Перша таблиця:</p>
+<table class="table1" border="2" width="500px">
+    <colgroup>
+        <col span="1" style="background-color: #9cc2e6;">
+    </colgroup>
+
+    <thead style="background-color: #fed966;">
+        <tr>
+            <th width="10%">№</th>
+            <th width="40%">ПІБ</th>
+            <th width="25%">Адреса</th>
+            <th>Телефон</th>
+        </tr>
+    </thead>
+
+    <tbody style="text-align: center;">
+        <tr>
+            <td>1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>111111</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>222222</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>ПІБ3</td>
+            <td>Адреса3</td>
+            <td>333333</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>444444</td>
+        </tr>
+    </tbody>
+
+    <tfoot style="background-color: #538136;">
+        <tr>
+            <td colspan="3" style="text-align: right; font-weight: bold">Загальна кількість</td>
+            <td style="text-align: center; font-weight: bold">4</td>
+        </tr>
+    </tfoot>
+</table>
+
+<p>Друга таблиця</p>
+<table class="table2" border="1" width="300px">
+    <thead>
+    <tr>
+        <th rowspan="2">номер</th>
+        <th colspan="4">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значение</th>
+    </tr>
+    </thead>
+    <tbody style="text-align: center;">
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4
+        </th>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>Третя таблиця</p>
+<table border="1" width="300px" height="200px">
+    <tbody style="text-align: center;">
+    <tr>
+        <td rowspan="3" colspan="2">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+
+<p>Четверта таблиця</p>
+<table class="table4" border="1" width="300" height="200">
+    <tbody style="text-align: left;">
+    <tr>
+        <td rowspan="3" colspan="2">
+            1 <img src="https://toppng.com/uploads/preview/usheen-cutenessoverload-pusheen-the-cat-heart-11562861280eggmjjiomu.png" alt="Киця">
+        </td>
+        <td colspan="2">
+            2 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBDz5fLeZyVmsq5s9h5pwXyfusuDDFzqgwSg&usqp=CAU" alt="Be Happy!">
+        </td>
+        <td>
+            3 <img src="https://png.pngtree.com/png-vector/20191207/ourmid/pngtree-cute-bee-illustration-vector-on-white-background-png-image_2045195.jpg" alt="бджола">
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
