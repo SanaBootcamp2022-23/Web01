@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <style>
+        span{
+            font-weight: bold;
+            font-size: 18px;
+        }
+        #first td{
+            background-color: #E7E6E6;;
+            padding: 5px 5px 15px 5px;
+        }
+        table{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #first,#first td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #head td{
+            font-weight: bold;
+            background-color: #fdd866;
+            width: 100px;
+        }
+        #head td:nth-child(1){
+            width: 20px;
+        }
+        .number{
+            background-color: #9CC2E5;
+        }
+        #foot td{
+            background-color: #538135;
+            font-weight: bold;
+        }
+        #foot td:nth-child(1){
+            text-align: right;
+        }
+        #second, #second td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #second{
+            text-align: center;
+        }
+        #second td{
+            padding: 5px;
+        }
+        #second tr:nth-child(1), #second tr:nth-child(2){
+            font-weight: bold;
+        }
+        #third, #third td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        #third tr{
+            height: 50px;
+        }
+        #third td{
+            width: 50px;
+            padding: 10px;
+        }
+        #fourth, #fourth td{
+            border: 1px solid black;
+        }
+        img{
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+<span>Перша таблиця: </span>
+<table id = "first">
+    <tr id = "head">
+        <td>
+            №
+        </td>
+        <td>
+            ПІБ
+        </td>
+        <td>
+            Адреса
+        </td>
+        <td>
+            Телефон
+        </td>
+    </tr>
+    <tr>
+        <td class = "number">
+            1
+        </td>
+        <td>
+            ПІБ1
+        </td>
+        <td>
+            Адреса1
+        </td>
+        <td>
+            111111
+        </td>
+    </tr>
+    <tr>
+        <td class = "number">
+            2
+        </td>
+        <td>
+            ПІБ2
+        </td>
+        <td>
+            Адреса2
+        </td>
+        <td>
+            222222
+        </td>
+    </tr>
+    <tr>
+        <td class = "number">
+            3
+        </td>
+        <td>
+            ПІБ3
+        </td>
+        <td>
+            Адреса3
+        </td>
+        <td>
+            333333
+        </td>
+    </tr>
+    <tr>
+        <td class = "number">
+            4
+        </td>
+        <td>
+            ПІБ4
+        </td>
+        <td>
+            Адреса4
+        </td>
+        <td>
+            444444
+        </td>
+    </tr>
+    <tr id = "foot">
+        <td colspan="3">
+            Загальна кількість
+        </td>
+        <td>
+            4
+        </td>
+    </tr>
+</table>
+<span>Друга таблиця: </span>
+<table id = "second">
+    <tr>
+        <td rowspan="2">номер</td>
+        <td colspan="4">теги</td>
+    </tr>
+    <tr>
+        <td>
+            тег
+        </td>
+        <td colspan="3">значення</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4" colspan="3">для тексту</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td colspan="3">таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td colspan="3">ряд таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td colspan="3" rowspan="2">комірки таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<span>Третя таблиця: </span>
+<table id = "third">
+    <tr>
+        <td colspan="2" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="4">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td rowspan="2">8</td>
+        <td rowspan="3">9</td>
+        <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+        <td>
+            11
+        </td>
+    </tr>
+</table>
+
+<span>Четверта таблиця</span>
+<table id = "fourth">
+    <tr>
+    <tr>
+        <td colspan="2" rowspan="3">1<img src="images/1.jfif"></td>
+        <td colspan="2">2<img src="images/2.jfif"></td>
+        <td>3<img src="images/3.jpg"></td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="4">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+        <td>
+            11
+        </td>
+    </tr>
+    </tr>
+</table>
+</body>
+</html>
