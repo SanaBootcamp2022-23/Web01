@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables.html</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<p>1 таблиця:</p>
+<table border="1" width="25%">
+    <colgroup>
+        <col span="1" style="background-color: rgb(96, 162, 238);">
+    </colgroup>
+
+    <thead style="background-color: rgb(240, 200, 68); text-align: center;">
+    <tr style="height: 50px">
+        <th width="50px">№</th>
+        <th width="100px">ПІБ</th>
+        <th width="28%">Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    </thead>
+
+    <tbody style="text-align: center;">
+    <tr style="height: 50px">
+        <td>1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>111111</td>
+    </tr>
+
+    <tr style="height: 50px">
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>222222</td>
+    </tr>
+
+    <tr style="height: 50px">
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>333333</td>
+    </tr>
+
+    <tr style="height: 50px">
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>444444</td>
+    </tr>
+    </tbody>
+
+    <tfoot style="background-color: rgb(0,118,0);">
+    <tr style="height: 50px">
+        <td colspan="3" , style="text-align: right; font-weight: bold">Загальна кількість</td>
+        <td style="text-align: center; font-weight: bold">4</td>
+    </tr>
+    </tfoot>
+</table>
+
+<br><br>
+
+<p>2 таблиця</p>
+<table border="2" width="20%">
+    <thead style="text-align: center;">
+    <tr>
+        <th rowspan="2">номер</th>
+        <th colspan="4">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значение</th>
+    </tr>
+    </thead>
+    <tbody style="text-align: center;" colspan="1">
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4
+        </th>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>th</td>
+        <td rowspan="2">ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>td</td>
+    </tr>
+    </tbody>
+</table>
+
+<br><br>
+
+<p>3 таблиця</p>
+<table border="1" width="300px" height="200px">
+    <tbody style="text-align: center;">
+    <tr>
+        <td rowspan="3" colspan="2">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+
+<br><br>
+
+<table border="1" width="300" height="200">
+    <caption>4 таблиця</caption>
+    <tbody style="text-align: left;">
+    <tr>
+        <td rowspan="3" colspan="2">1 <img src="https://img.klubok.com/img/used/2020/02/24/24652/24652994_2.jpg" alt="Іграшка" width="80"></td>
+        <td colspan="2">2 <img
+                src="https://media.istockphoto.com/photos/collection-of-different-toys-on-wooden-table-picture-id1322274556?b=1&k=20&m=1322274556&s=170667a&w=0&h=KMtQ3_UG6o2EF-2XcEDs0FSH8SocMVv3ifmJvR8p5rM="
+                alt="Іграшки" width="80" height=""></td>
+        <td>3 <img
+                src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                alt="Lego" width="80"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+
+<br><br>
+
+</body>
+</html>
