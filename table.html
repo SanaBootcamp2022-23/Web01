@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .ma0 {
+            background-color: beige;
+            border-collapse:collapse;
+            text-align: center;
+        }
+        .ma1 {
+            border-collapse:collapse;
+            text-align: center;
+        }
+        td
+        {
+
+            border:1px solid black;
+        }
+        th
+        {
+            background-color: orange;
+            border:1px solid black;
+        }
+
+        .ma2 {
+            width: 380px;
+            height: 150px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .ma3 {
+
+            border:1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+
+<table class="ma0" style = "border:1px solid black; ">
+    <captain>Таблиця 1</captain>
+    <tr> <th>№</th> <th>ПІБ</th> <th>Адреса</th>  <th>Телефон</th> </tr>
+    <tr >
+        <td style = "background-color:deepskyblue">1</td>   <td>Зубренко Михайло Петрович</td>   <td>Адреса1</td>   <td>111111</td>
+    </tr>
+    <tr>
+        <td style = "background-color:deepskyblue">2</td>   <td>Ілон Маск</td>   <td>Адреса2</td>   <td>2222222</td>
+    </tr>
+    <tr>
+        <td style = "background-color:deepskyblue">3</td>   <td>Михайло Петрович 2</td>   <td>Адреса3</td>   <td>3333333</td>
+    </tr>
+    <tr>
+        <td style = "background-color:deepskyblue">4</td>   <td>Михайло Петрович</td>   <td>Адреса4</td>   <td>4444444</td>
+    </tr>
+    <tr>
+        <td style="background-color: green;text-align:right;"colspan="3"> Загальна кількість</td> <td style="background-color: green;">4</td>
+    </tr>
+
+</table>
+
+
+<table class="ma1" >
+    <captain>Таблиця 2</captain>
+    <tr>
+        <td width="100px" rowspan="2">Номер</td> <td width="260px" colspan="4">Теги</td>
+    </tr>
+    <tr>
+        <td>Тег</td> <td colspan="3">значення</td>
+    </tr>
+    <tr>
+        <td>1</td> <td>p</td> <td rowspan="4" colspan="3">для текста</td>
+    </tr>
+    <tr><td>2</td><td>a</td></tr>
+    <tr><td>3</td><td>b</td></tr>
+    <tr><td>4</td><td>i</td></tr>
+    <tr>
+        <td>5</td><td>table</td><td colspan="3">таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td><td>tr</td><td colspan="3">ряд таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td><td>td</td><td colspan="3" rowspan="2">клітинки таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td><td>td</td>
+    </tr>
+</table>
+
+<table class="ma2">
+    <captain>Таблиця 3</captain>
+
+    <tr>
+        <td colspan="2" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+
+<table class="ma3">
+    <captain>Таблиця 4</captain>
+    <tr>
+        <td colspan="2" rowspan="3">1<img src="1.png" width="150px" height="150"></td>
+        <td colspan="2">2<img src="2.png" width="100px" height="100"></td> <td colspan="2">3<img src="3.png" width="100px" height="100"></td>
+    </tr>
+
+    <tr>
+        <td colspan="4">4</td>
+    </tr>
+
+    <tr>
+        <td rowspan="3">5</td> <td>6</td> <td colspan="2">7</td>
+    </tr>
+
+    <tr>
+        <td>8</td> <td rowspan="2">9</td> <td colspan="3" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+
+</table>
+</body>
+</html>
