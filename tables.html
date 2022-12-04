@@ -1,0 +1,174 @@
+<h4 style="font-weight: normal;">Перша таблиця:</h4>
+
+<style>
+    table, th, td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    tr
+    {
+        height: 50px;
+    }
+    .last-element
+    {
+        text-align: right;
+    }
+
+    .last-table tr td
+    {
+        text-align: left;
+    }
+</style>
+
+<table style="width:30%">
+    <colgroup>
+        <col span="1" style="background-color: blue;">
+        <col span="3" style="background-color: lightgray;">
+    </colgroup>
+    <tr style="background-color: yellow;">
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>11111</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>22222</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>33333</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>44444</td>
+    </tr>
+    <tr style="background-color: green;">
+        <td colspan="3" class="last-element">Загальна кількість</td>
+        <td>4</td>
+    </tr>
+</table>
+
+<h4 style="font-weight: normal;">Друга таблиця:</h4>
+
+<table style="width:30%">
+    <tr>
+        <th rowspan="2">номер</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значение</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<h4 style="font-weight: normal;">Третя таблиця:</h4>
+
+<table style="width: 400px; height: 400px;">
+    <tr>
+        <td colspan="2" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+<h4 style="font-weight: normal;">Четверта таблиця:</h4>
+
+<table style="width: 350px; height: 350px; border-collapse: separate;" class="last-table">
+    <tr>
+        <td colspan="2" rowspan="3">
+            1
+            <img src="./images/images1.JPG" alt="images1">
+        </td>
+        <td colspan="2">
+            2
+            <img src="./images/images2.JPG" alt="images2">
+        </td>
+        <td>
+            3
+            <img src="./images/images3.JPG" alt="images3">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
