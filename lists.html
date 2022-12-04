@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .secondF
+    {
+        list-style-type: disc;
+    }
+    .secondS
+    {
+        list-style-type: lower-latin;
+    }
+    .secondT
+    {
+        list-style-type: circle;
+    }
+    .Third li:nth-of-type(1) ul li:nth-of-type(2) ol
+    {
+        list-style-type: disc;
+    }
+    .Third li:nth-of-type(1) ul li:nth-of-type(3) ol
+    {
+        list-style-type: upper-latin;
+    }
+    .Third li:nth-of-type(2) ul li:nth-of-type(1) ol
+    {
+        list-style-type: upper-latin;
+    }
+    .Third li:nth-of-type(2) ul li:nth-of-type(2) ol
+    {
+        list-style-type: disc;
+    }
+    .Third li:nth-of-type(2) ul
+    {
+        list-style-type: disc;
+    }
+</style>
+<p>Перший список:</p>
+<ul>
+    <li>Троянди</li>
+    <li>Гвоздики</li>
+    <li>Тюльпани</li>
+    <li>Ромашки</li>
+</ul>
+<p>Другий список:</p>
+<ol>
+    <li>Фрукти:
+        <ul class="secondF">
+            <li>Ананас</li>
+            <li>Апельсин</li>
+            <li>Банан</li>
+            <li>Яблуко</li>
+            <li>Мандарин</li>
+        </ul>
+    </li>
+    <li>Овочі:
+        <ol class="secondS">
+            <li>Картопля</li>
+            <li>Огірок</li>
+            <li>Буряк</li>
+            <li>Морква</li>
+            <li>Баклажан</li>
+        </ol>
+    </li>
+    <li>Ягоди:
+        <ol class="secondT">
+            <li>Полуниця</li>
+            <li>Малина</li>
+            <li>Смородина</li>
+        </ol>
+    </li>
+</ol>
+<p>Третій список:</p>
+
+<ol class="Third">
+    <li>Підприємство 1
+        <ul>
+            <li>Керівник 1
+                <ol  type="i">
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ol>
+            </li>
+            <li>Керівник 2
+                <ol>
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ol>
+            </li>
+            <li>Керівник 3
+                <ol>
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    <li>Підприємство 2
+
+        <ul>
+            <li>Керівник 1
+                <ol>
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+
+                </ol>
+            </li>
+            <li>Керівник 2
+                <ol>
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+
+                </ol>
+            </li>
+        </ul>
+    </li>
+</ol>
+
+<p>Четвертий список:</p>
+<ol type="I"start="8">
+    <li>Король Магнум</li>
+    <li>Король Зигфрид</li>
+    <li>Король Сигизмунд</li>
+    <li>Король Хусбрандт</li>
+</ol>
+<p>П'ятий список:</p>
+<dl>
+
+    <dt>Теорема синусів</dt>
+    <dd>Сторони трикутника пропорційні синусам протилежних кутів: </dd>
+    <dt>Теорема косинусів</dt>
+    <dd>Квадрат сторони трикутника дорівнює сумі квадратів двох інших сторін мінус подвоєний добуток цих сторін на косинус кута між ними:</dd>
+</dl>
+</ol>
+
+
+</body>
+</html>
