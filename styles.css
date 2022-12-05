@@ -1,0 +1,96 @@
+a {
+    text-decoration: none
+}
+
+p, ul, ol {
+    margin: 0;
+}
+
+.mg {
+    margin-top: 15px
+}
+
+/* Table 1 */
+.tb1, .tb1 th, .tb1 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 10px 15px 10px;
+    text-align: center;
+}
+
+.tb1 th:nth-child(2) {
+    width: 150px;
+}
+.tb1 th:nth-child(3) {
+    width: 100px;
+}
+
+.tb1 thead {
+    background-color: coral;
+}
+.tb1 tbody td:first-child {
+    background-color: darkcyan;
+}
+.tb1 tbody {
+    background-color: lightgray;
+}
+.tb1 tfoot {
+    background-color: forestgreen;
+    font-weight: bold;
+}
+.tb1 tfoot tr td:first-child {
+    text-align: right;
+}
+
+/* Table 2 */
+.tb2, .tb2 th, .tb2 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.tb2 tr th:last-child {
+    width: 200px
+}
+
+/* Table 3 */
+.tb3, .tb3 th, .tb3 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.tb3 tr:nth-child(2) td {
+    text-align: left;
+}
+.tb3 tr:nth-child(3) td:first-child {
+    vertical-align: top;
+}
+.tb3 tr:nth-child(4) td:first-child {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.tb3 tr:nth-child(4) td:nth-child(2) {
+    padding-top: 5px;
+    padding-left: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+.tb3 tr:nth-child(4) td:last-child {
+    padding-bottom: 20px;
+}
+.tb3 tr td:last-child {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+/* Table 4 */
+.tb4, .tb4 th, .tb4 td {
+    border: 1px solid black;
+}
+
+.tb4 img {
+    width: 100px;
+}
