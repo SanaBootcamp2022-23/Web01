@@ -2,7 +2,7 @@ a {
     text-decoration: none
 }
 
-p, ul, ol {
+p, ul, ol, dl {
     margin: 0;
 }
 
@@ -39,6 +39,7 @@ p, ul, ol {
     font-weight: bold;
 }
 .tb1 tfoot tr td:first-child {
+    padding-top: 0;
     text-align: right;
 }
 
