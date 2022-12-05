@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table,td,th{
+            border: 2px solid;
+            border-collapse: collapse;
+            border-color: black;
+        }
+        
+        .tableThree{
+            width: 250px;
+            height: 250px;
+        }
+        
+        .tableFour{
+            border-collapse: unset;
+            width: 400px;
+            height: 300px;
+        }
+        
+        .firstImg{
+            width: 150px;
+            height: 150px;
+        }
+        
+        .nextImg{
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <p>Перша таблиця:</p>
+    <table>
+        <tr>
+            <th>№</th>
+            <th>ПІБ</th>
+            <th>Адреса</th>
+            <th>Телефон</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>11111</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>22222</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ПІБ3</td>
+            <td>Адреса3</td>
+            <td>33333</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>55555</td>
+        </tr>
+        <tr>
+            <td colspan="3">Загальна кількість</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <p>Друга таблиця:</p>
+<table>
+    <tr>
+        <th rowspan="2">номер</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значення</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">Для тексту</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td>6    </td>
+        <td>tr</td>
+        <td>рядок таблиці</td>
+    </tr>
+    <tr>
+        <td>7   </td>
+        <td>td</td>
+        <td rowspan="2">клітинка таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+<p>Третя таблиця:</p>
+<table class="tableThree">
+    <tr>
+        <td colspan="3" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="4">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="2">8</td>
+        <td rowspan="3">9</td>
+        <td rowspan="3" colspan="2">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td colspan="2">11</td>
+    </tr>
+</table>
+<p>Четверта таблиця:</p>
+    <table class="tableFour">
+        <tr>
+            <td colspan="3" rowspan="3">1 <img class="firstImg" src="https://www.meme-arsenal.com/memes/da086a7525affe07b58236cf69f2755d.jpg" alt="Tom & Jerri"></td>
+            <td colspan="2">2 <img class="nextImg" src="https://www.meme-arsenal.com/memes/78310265daa5c0227a74bdb8f2fc21bc.jpg" alt="Tom & Jerri sad"></td>
+            <td>3 <img class="nextImg" src="https://www.meme-arsenal.com/memes/aa1267b741e7c5daf05e961d52944849.jpg" alt="Tom & Ducky"></td>
+        </tr>
+        <tr>
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+            <td rowspan="4">5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">8</td>
+            <td rowspan="3">9</td>
+            <td rowspan="3" colspan="2">10</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td colspan="2">11</td>
+        </tr>
+    </table>
+</body>
+</html>

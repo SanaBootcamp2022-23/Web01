@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .blackRound{
+            list-style-type: disc;
+        }
+        
+        .emptyRound{
+            list-style-type: circle;
+        }
+        
+        .blackSquare{
+            list-style-type: square;
+        }
+        
+        .lowerLetter{
+            list-style-type: lower-latin;
+        }
+        
+        .upperLetter{
+            list-style-type: upper-latin;
+        }
+        
+        .lowerRoman{
+            list-style-type: lower-roman;
+        }
+        
+        .upperRoman{
+            list-style-type: upper-roman;
+        }
+
+        .titleList{
+            margin: 0;
+        }
+        
+        ol, ul {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<p class="titleList">Перший список</p>
+<ul>
+    <li>Троянди</li>
+    <li>Гвоздики</li>
+    <li>Тюльпани</li>
+    <li>Ромашки</li>
+</ul>
+<p class="titleList">Другий список</p>
+<ol>
+    <li>Фрукти
+        <ul class="blackRound">
+            <li>Ананас</li>
+            <li>Апельсин</li>
+            <li>Банан</li>
+            <li>Яблуко</li>
+            <li>Мандарин</li>
+        </ul>
+    </li>
+    <li>Овочі
+        <ol class="lowerLetter">
+            <li>Картопля</li>
+            <li>Огірок</li>
+            <li>Буряк</li>
+            <li>Морква</li>
+            <li>Баклажан</li>
+        </ol>
+    </li>
+    <li>Ягоди
+        <ul>
+            <li>Полуниця</li>
+            <li>Малина</li>
+            <li>Смородина</li>
+        </ul>
+    </li>
+</ol>
+<p class="titleList"><b>Третій список</b></p>
+<ol>
+    <li>Підприємство 1
+        <ul>
+            <li>Керівник 1
+                <ol class="lowerRoman">
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ol>
+            </li>
+            <li>Керівник 2
+                <ul class="emptyRound">
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ul>
+            <li>Керівник 3
+                <ol class="upperLetter">
+                    <li>Робітник 1</li>
+                    <li>Робітник 2</li>
+                    <li>Робітник 3</li>
+                </ol>
+        </ul>
+    </li>
+    <li>Підприємство 2
+        <ol class="blackRound">
+            <li>Керівник1
+                <ol class="upperLetter">
+                    <li>Робітник1</li>
+                    <li>Робітник2</li>
+                </ol>
+            </li>
+            <li>Керівник2
+                <ul class="blackRound">
+                    <li>Робітник1</li>
+                    <li>Робітник2</li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+</ol>
+<p class="titleList">Чертвертий список</p>
+<ol class="upperRoman" start="13">
+    <li>Король Магнум XLIV</li>
+    <li>Король Зигфруд XVI</li>
+    <li>Король Сигизмунд XXI</li>
+    <li>Король Хусбранд I</li>
+</ol>
+<p class="titleList">П'ятий список</p>
+<dl>
+    <dt>GIF
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa, dolorem laborum laudantium maiores minima nulla officia repellendus similique voluptas.</dd>
+    </dt>
+    <dt>JPEG
+        <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore inventore labore mollitia praesentium quas quis? Accusantium commodi culpa cum, dicta dignissimos dolor doloribus earum esse eveniet id magni maiores, molestiae nam nesciunt perspiciatis porro quae quibusdam saepe sequi tempora! Cum.</dd>
+    </dt>
+</dl>
+</body>
+</html>
