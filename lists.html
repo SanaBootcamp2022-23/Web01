@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+  <style>
+    ul.listDisc
+    {
+      list-style-type: disc ;
+    }
+    ol.listLetters
+    {
+  list-style-type: lower-alpha;
+    }
+    ol.listLettersBig
+    {
+      list-style-type: upper-alpha;
+    }
+    ol.listRome
+    {
+      list-style-type: lower-roman;
+    }
+    ol.listRomeBig
+    {
+      list-style-type: upper-roman;
+    }
+  </style>
+</head>
+<body>
+<p>Перший список:</p>
+<ul>
+  <li>Троянди</li>
+  <li>Гвоздики</li>
+  <li>Тюльпани</li>
+  <li>Ромашки</li>
+</ul>
+<p>Другий список:</p>
+  <ol>
+    <li>
+      Фрукти
+      <ul class = "listDisc">
+        <li>Ананас</li>
+        <li>Апельсин</li>
+        <li>Банан</li>
+        <li>Яблуко</li>
+        <li>Мандарин</li>
+      </ul>
+    </li>
+    <li>
+      Овочі
+    <ol class = "listLetters">
+      <li>Картопля</li>
+      <li>Огірок</li>
+      <li>Буряк</li>
+      <li>Морква</li>
+      <li>Баклажан</li>
+    </ol>
+    </li>
+    <li>
+      Ягоди
+      <ul>
+        <li>Малина</li>
+        <li>Полуниця</li>
+        <li>Смородина</li>
+      </ul>
+    </li>
+  </ol>
+<p>Третій список:</p>
+<ol>
+  <li>
+    Підприємство 1
+    <ul>
+      <li>
+        Керівник 1
+        <ol class="listRome">
+          <li> Робітник 1</li>
+          <li> Робітник 2</li>
+          <li> Робітник 3</li>
+        </ol>
+      </li>
+      <li>
+        Керівник 2
+        <ul class="listDisc">
+          <li> Робітник 1</li>
+          <li> Робітник 2</li>
+          <li> Робітник 3</li>
+        </ul>
+      </li>
+      <li>
+        Керівник 3
+        <ol class="listLettersBig">
+          <li> Робітник 1</li>
+          <li> Робітник 2</li>
+          <li> Робітник 3</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+  <li>
+    Підприємство 2
+    <ul class="listDisc">
+      <li>
+        Керівник 1
+        <ol class="listLettersBig">
+          <li> Робітник 1</li>
+          <li> Робітник 2</li>
+        </ol>
+      </li>
+      <li>
+        Керівник 2
+        <ul class="listDisc">
+          <li> Робітник 1</li>
+          <li> Робітник 2</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p>Четвертий список:</p>
+<ol class="listRomeBig" start="8">
+  <li>Король Магнум XLIV</li>
+  <li>Король Зигфид X</li>
+  <li>Король Сигизмунд V</li>
+  <li>Король Хусбрандт I</li>
+</ol>
+<p>П'ятий список:</p>
+<dl>
+  <dt>Об'є́ктоорієнто́ване програмува́ння</dt>
+  <dd>одна з парадигм програмування, яка розглядає програму як множину «об'єктів», що взаємодіють між собою.Основу ООП складають чотири основні концепції: інкапсуляція, успадкування, поліморфізм та абстракція.</dd>
+  <dt>Функційне програмування</dt>
+  <dd>парадигма програмування, яка розглядає програму як обчислення математичних функцій та уникає станів та змінних даних. Функційне програмування наголошує на застосуванні функцій, на відміну від імперативного програмування, яке наголошує на змінах в стані та виконанні послідовностей команд.</dd>
+</dl>
+</body>
+</html>
