@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding-left: 5px;
+    text-align: justify;
+
+}
+
+hr{
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+    width: 630px;
+}
+p{
+    padding: 10px;
+    font-size: 18px;
+
+}
+.footer_part {
+    font-size: 14px;
+}
