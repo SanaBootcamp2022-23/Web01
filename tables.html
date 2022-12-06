@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="widtd=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        #t01 {
+            background-color: Yellow;
+        }
+        #t02 {
+            background-color: Green;
+        }
+        #t03{
+            text-align: right;
+        }
+        #t04{
+            text-align: left;
+        }
+
+        #t07{
+            border-collapse: collapse;
+        }
+        #t09{
+            border-collapse: collapse;
+        }
+        #t08{
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+<table style="width:50%" id="t07" >
+<tr id="t01">
+    <th height="50">№</th>
+    <th>ПІБ</th>
+    <th>Адреса</th>
+    <th>Телефон</th>
+</tr>
+    <tr style=" background-color:lightgrey">
+        <td style=" background-color:lightblue" height="50">1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>1111</td>
+    </tr>
+    <tr style=" background-color:lightgrey">
+        <td td  style=" background-color:lightblue" height="50">2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>2222</td>
+    </tr>
+    <tr style=" background-color:lightgrey">
+        <td td style=" background-color:lightblue" height="50">3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>3333</td>
+    </tr>
+    <tr style=" background-color:lightgrey">
+        <td td style=" background-color:lightblue" height="50">4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>4444</td>
+    </tr>
+    <tr id="t02">
+    <th colspan="3" id="t03" height="50">Загальна кількість</th>
+    <th>4</th>
+    </tr>
+</table>
+
+Друга таблиця
+<table style="width:20%" id = "t08">
+    <tr>
+        <th rowspan="2">Номер:</th>
+        <th colspan="2">теги</th>
+    </tr>
+    <tr>
+        <td> тег </td>
+        <td> значення </td>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> p </td>
+        <td rowspan="4"> для тексту </td>
+    </tr>
+    <tr>
+        <td> 2</td>
+        <td> a </td>
+    </tr>
+    <tr>
+        <td> 3</td>
+        <td> b </td>
+    </tr>
+    <tr>
+        <td> 4</td>
+        <td> i </td>
+    </tr>
+    <tr>
+        <td> 5</td>
+        <td> table </td>
+        <td> таблица</td>
+    </tr>
+    <tr>
+        <td> 6</td>
+        <td> tr </td>
+        <td> рядок таблицы</td>
+    </tr>
+    <tr>
+        <td> 7</td>
+        <td> td </td>
+        <td  rowspan="4"> ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td> 8</td>
+        <td> th </td>
+    </tr>
+</table>
+
+Третя таблиця:
+<table style="width:20%" id = "t09">
+<tr>
+    <td colspan="2" rowspan="3">1</td>
+    <td colspan="2">2</td>
+    <td>3</td>
+</tr>
+<tr>
+<td id = "t04" colspan="3">4</td>
+</tr>
+    <tr>
+        <td rowspan="3" valign="top"> 5</td>
+        <td> 6</td>
+        <td> 7</td>
+    </tr>
+    <tr>
+        <td height="50"> 8 </td>
+        <td rowspan="3" valign="top"> 9</td>
+        <td rowspan="2" colspan="2">10 </td>
+    </tr>
+    <tr>
+        <td> 11</td>
+    </tr>
+</table>
+
+Четверта таблиця
+<table style="width:20%" id = "t06">
+    <tr>
+        <td colspan="2" rowspan="3"  style = " text-align: left">1<img src="https://www.w3schools.com/images/w3schools_green.jpg" style="width:100px;height:100px;"></td>
+        <td colspan="2"  style = " text-align: left">2<img src="https://www.shutterstock.com/image-photo/rolling-dices-on-wooden-table-260nw-1754560034.jpg" style="width:70px;height:70px;"></td>
+        <td  style = " text-align: left">3<img src="https://i.redd.it/jeuusd992wd41.jpg" style="width:70px;height:70px;"></td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3"> 5</td>
+        <td> 6</td>
+        <td> 7</td>
+    </tr>
+    <tr>
+        <td height="50"> 8 </td>
+        <td rowspan="3" > 9</td>
+        <td rowspan="2" colspan="2">10 </td>
+    </tr>
+    <tr>
+        <td> 11</td>
+    </tr>
+</table>
+</body>
+</html>
