@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Створення таблиць</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h3>Перша таблиця:</h3>
+    <table class="table table_1">
+      <thead>
+        <tr>
+          <th>№</th>
+          <th>ПІБ</th>
+          <th>Адреса</th>
+          <th>Телефон</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>ПІБ 1</td>
+          <td>Адреса 1</td>
+          <td>111111</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>ПІБ 2</td>
+          <td>Адреса 2</td>
+          <td>222222</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>ПІБ 3</td>
+          <td>Адреса 3</td>
+          <td>333333</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>ПІБ 4</td>
+          <td>Адреса 4</td>
+          <td>444444</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Загальна кількість</td>
+          <td>4</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h3>Друга таблиця:</h3>
+    <table class="table table_2">
+      <thead>
+        <tr>
+          <th rowspan="2">номер</th>
+          <th colspan="2">теги</th>
+        </tr>
+        <tr>
+          <th>тег</th>
+          <th>значение</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>p</td>
+          <td rowspan="4">для текста</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>b</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>i</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>table</td>
+          <td>таблица</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>tr</td>
+          <td>ряд таблиц</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>td</td>
+          <td rowspan="2">ячейки таблиц</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>th</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+
+  <h3>Третя таблиця:</h3>
+  <table class="table table_3">
+    <tbody>
+      <tr>
+        <td rowspan="3" colspan="2">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td colspan="3">4</td>
+      </tr>
+      <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Четверта таблиця:</h3>
+  <table class="table table_4">
+    <tbody>
+      <tr>
+        <td rowspan="3" colspan="2">
+          1<img src="img/github.png" alt="Github" />
+        </td>
+        <td colspan="2">2<img src="img/gitlab.png" alt="Gitlab" /></td>
+        <td>3<img src="img/bitbucket.png" alt="Bitbucket" /></td>
+      </tr>
+      <tr>
+        <td colspan="3">4</td>
+      </tr>
+      <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+      </tr>
+    </tbody>
+  </table>
+</html>
