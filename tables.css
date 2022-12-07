@@ -1,0 +1,52 @@
+table, td, th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    padding: 15px;
+}
+caption{
+    text-align: left;
+}
+
+/* ******************  style for #table1   *********************/
+#table1 th{
+    background-color: yellow;
+}
+#table1 td{
+    background-color: lavender;
+}
+#table1 td:first-child{
+    background-color: lightskyblue;
+}
+#table1 tfoot>tr>td:first-child, #table1 tfoot>tr>td:last-child{
+    background-color: darkgreen;
+    font-weight: bold;
+}
+#table1 tfoot>tr>td:first-child{
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+#table1 tfoot>tr>td:last-child{
+    text-align: center;
+}
+
+/* ******************  style for #table2   *********************/
+#table2{
+    width: 450px;
+    text-align: center;
+}
+
+/* ******************  style for #table3   *********************/
+#table3 td{
+    padding: 15px;
+    text-align: center;
+}
+
+/* ******************  style for #table3   *********************/
+#table4 {
+    border-collapse: inherit;
+}
