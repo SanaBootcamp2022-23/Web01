@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
+</head>
+<body>
+Перша таблиця:
+<table class="table_first">
+    <tr>
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    <tr>
+        <td class="column_first">1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>111111</td>
+    </tr>
+
+    <tr>
+        <td class="column_first">2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>222222</td>
+    </tr>
+
+    <tr>
+        <td class="column_first">3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>333333</td>
+    </tr>
+    <tr>
+        <td class="column_first">4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>44444</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="last-row">Загальна кількість</td>
+        <td class="last-row">4</td>
+    </tr>
+</table>
+
+<p class="table_name">Друга таблиця:</p>
+
+<table class="table_second">
+    <tr>
+        <th rowspan="2" class="first_row">Номер</th>
+        <th colspan="2" class="first_row">Теги</th>
+    </tr>
+    <tr>
+        <th class="first_row">Тег</th>
+        <th class="first_row">Значення</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td class="column_second">p</td>
+        <td rowspan="4">для тексту</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td class="column_second">a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td class="column_second">b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td class="column_second">i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td class="column_second">table</td>
+        <td>tаблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td class="column_second">tr</td>
+        <td>ряд таблиці</td>
+    </tr>
+        <td>7</td>
+    <td class="column_second">td</td>
+    <td rowspan="2">ячейки таблиці</td>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<p class="table_name-third">Третя таблиця:</p>
+<table class="table_third">
+        <tbody>
+        <tr>
+            <td rowspan="3" colspan="2">1</td>
+            <td colspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;" colspan="3">4</td>
+        </tr>
+        <tr>
+            <td rowspan="3">5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td rowspan="2">9</td>
+            <td rowspan="2" colspan="2">10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+        </tr>
+        </tbody>
+    </table>
+
+<p class="table_name-fourth">Четверта таблиця:</p>
+    <table class="table_fourth">
+    <tbody>
+    <tr>
+        <td rowspan="3" colspan="2" class="row_fourth">1 <img src="image/cat.jpg" alt="Cat" class="image_cat"></td>
+        <td colspan="2" class="row_fourth_image">2 <img src="image/cat2.jpg" alt="Cat_2" class="image_cat2"></td>
+        <td>3 <img src="image/cat3.jpg" alt="Cat_3" class="image_cat3"></td>
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

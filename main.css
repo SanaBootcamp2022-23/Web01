@@ -1,0 +1,26 @@
+.list {
+   line-height: 0px;
+}
+
+.list-fruits {
+   list-style-type: disc;
+}
+
+.list-berries {
+   list-style-type: circle;
+}
+
+.list-company {
+   list-style-type: circle;
+}
+
+.list-second {
+   list-style-type: disc;
+}
+
+list-company2 {
+   list-style-type: disc;
+}
+dt {
+   margin-top: 1em;
+}

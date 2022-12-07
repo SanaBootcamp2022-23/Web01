@@ -1,0 +1,109 @@
+.table_first {
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+    background-color: lightgrey;
+}
+td{
+    padding: 5px 5px 15px 5px;
+    border: 1px solid #000;
+}
+
+th {
+    padding: 5px 5px 15px 5px;
+    border: 1px solid #000;
+    background-color: #fed966;
+}
+td:nth-child(2){
+    padding: 5px 30px 15px 30px;
+}
+
+.column_first:nth-child(-n + 1){
+    width: 30px;
+    background-color: cornflowerblue;
+}
+.last-row:nth-child(-n + 6){
+    text-align: right;
+    font-weight: bold;
+background-color:green;
+}
+
+.last-row:nth-child(2) {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Друга таблиця*/
+
+}
+.table_name {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.table_second {
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+}
+.first_row {
+    background-color: #ffffff;
+    padding-bottom: 2px;
+
+}
+.column_second {
+    width: 5px;
+    padding-bottom: 2px;
+}
+
+
+/*Третя таблиця*/
+
+.table_third{
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+    border-collapse: collapse;
+}
+.table_third{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*Четверта таблиця*/
+
+.table_fourth {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    font-size: 16px;
+    border: 1px solid black;
+
+}
+
+.row_fourth {
+    padding-right: 0px;
+}
+
+.image_cat {
+    width: 100px;
+    padding-right: 1px;
+}
+.image_cat2 {
+    width: 80px;
+
+}
+.row_fourth_image {
+    padding: 0px;
+    margin: 0px;
+}
+
+.image_cat3 {
+    width: 80px;
+    padding: 0px;
+}
