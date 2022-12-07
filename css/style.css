@@ -1,3 +1,74 @@
 sup a {
     text-decoration: none;
 }
+
+caption {
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, th {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table-1 {
+    height: 300px;
+    width: 500px;
+}
+
+.table-1 td, .table-1 th {
+    background-color: lightgray;
+    padding: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.table-1 tr td:first-child {
+    background-color: lightskyblue;
+}
+
+.table-1 tfoot  th {
+    background-color: darkolivegreen;
+}
+
+.table-1 thead th {
+    background-color: #ffe76c;
+}
+
+.first-col {
+    width: 15px;
+}
+
+.table-2 {
+    width: 250px;
+}
+
+.table-2 td, .table-2 th {
+    padding: 5px 15px;
+    vertical-align: center;
+    border: 1px solid gray;
+}
+
+.table-3 {
+    width: 250px;
+}
+
+.table-3 td, .table-3 th {
+    padding: 15px;
+    vertical-align: center;
+}
+
+.table-4 {
+    border-collapse: revert;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.table-4 td, .table-4 th {
+    padding: 5px;
+    text-align: left;
+}
