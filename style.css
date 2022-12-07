@@ -1,0 +1,22 @@
+table{
+	border-collapse: collapse;	
+}
+
+td, th {
+	border: 1px solid;
+}
+td.number{
+	background-color: blue;
+}
+
+thead.Table1{
+	background-color: yellow;
+}
+
+tbody.Table1{
+	background-color: grey;
+}
+
+tfoot.Table1{
+	background-color: green;
+}
