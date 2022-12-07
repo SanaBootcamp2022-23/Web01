@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 25px;
+            text-align: center;
+            width: 500px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption style="font-size: large">Перша таблиця</caption>
+    <thead style="background-color: gold">
+    <tr>
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    </thead>
+    <tbody style="background-color: lightgray">
+    <tr>
+        <td style="background-color: lightblue">1</td>
+        <td>ПІБ1</td>
+        <td>Адреса1</td>
+        <td>11111</td>
+    </tr>
+    <tr>
+        <td style="background-color: lightblue">2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>22222</td>
+    </tr>
+    <tr>
+        <td style="background-color: lightblue">3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>33333</td>
+    </tr>
+    <tr>
+        <td style="background-color: lightblue">4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>44444</td>
+    </tr>
+    </tbody>
+    <tfoot style="background-color: green">
+    <tr>
+        <td colspan="3" style="text-align: right"> <strong>Загальна кількість</strong></td>
+        <td style="text-align: center"> <strong>4</strong></td>
+    </tr>
+    </tfoot>
+</table>
+
+<table>
+    <caption style="font-size: large">Друга таблиця</caption>
+    <thead>
+        <tr>
+            <th rowspan="2">Номер</th>
+            <th colspan="2">теги</th>
+        </tr>
+    <tr>
+        <th>Тег</th>
+        <th>Значення</th>
+    </tr>
+    </thead>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">Для тексту</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>Ряд таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">Комірка таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<table>
+    <caption style="font-size: large">Третя таблиця</caption>
+    <tr>
+        <td rowspan="3" colspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="3">9</td>
+        <td rowspan="2" colspan="4">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+<table style=border-collapse:separate>
+    <caption style="font-size: large">Четверта таблиця</caption>
+    <tr>
+        <td rowspan="3" colspan="3"> 1 <img src="img/1.jpg" width=160px" height="200px" ></td>
+        <td style="text-align: right" colspan="2"> 2 <img src="img/2.jpg" width="75px" height="90px"> </td>
+        <td>3 <img src="img/3.jpg" width="110px" height="90px"></td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="3">9</td>
+        <td rowspan="2" colspan="4">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+</body>
+</html>
