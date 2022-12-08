@@ -1,0 +1,52 @@
+/*  index.html  */
+
+.blue-annotation
+{
+    color: blue;
+}
+
+/*  lists.html   */
+
+ul, ol {
+    margin-top: 0px;
+}
+
+.header-lists {
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*  tables.html  */
+
+table, th, td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr
+{
+    height: 50px;
+}
+.last-element
+{
+    text-align: right;
+}
+
+.last-table tr td
+{
+    text-align: left;
+}
+
+caption
+{
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.cell-number-image
+{
+    text-align: start;
+}
