@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists</title>
+    <style>
+        .cirle{
+            list-style-type: circle;
+        }
+        .disc{
+            list-style-type: disc;
+        }
+        .lower_latin{
+            list-style-type: lower-latin;
+        }
+        .lower_roman{
+            list-style-type: lower-roman;
+        }
+        .upper_latin{
+            list-style-type: upper-latin;
+        }
+        .upper_roman{
+            list-style-type: upper-roman;
+        }
+    </style>
+</head>
+<body>
+<p>Перший список:</p>
+<ul>
+<li>Пункт 1</li>
+<li>Пункт 2</li>
+<li>Пункт 3</li>
+<li>Пункт 4</li>
+</ul>
+<p>Другий список:</p>
+<ol>
+    <li>
+        Головний пункт 1:
+        <ul class="disc">
+            <li>
+                підпункт 1
+            </li>
+            <li>
+                підпункт 2
+            </li>
+            <li>
+                підпункт 3
+            </li>
+            <li>
+                підпункт 4
+            </li>
+        </ul>
+    </li>
+    <li>
+        Головний пункт 2:
+        <ol class="lower_latin">
+            <li>
+                підпункт 1
+            </li>
+            <li>
+                підпункт 2
+            </li>
+            <li>
+                підпункт 3
+            </li>
+            <li>
+                підпункт 4
+            </li>
+        </ol>
+    </li>
+    <li> Головний пункт 3
+        <ul >
+            <li>
+                підпункт 1
+            </li>
+            <li>
+                підпункт 2
+            </li>
+            <li>
+                підпункт 3
+            </li>
+            <li>
+                підпункт 4
+            </li>
+        </ul>
+    </li>
+</ol>
+<p>
+    <b>Третій список:</b>
+</p>
+<ol>
+    <li>
+        Підприємство 1:
+        <ul >
+            <li>
+                Керівник 1
+                <ul class="lower_roman">
+                    <li>
+                        Робітник 1
+                    </li>
+                    <li>
+                        Робітник 2
+                    </li>
+                    <li>
+                        Робітник 3
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Керівник 2
+                <ul class="disc">
+                    <li>
+                        Робітник 1
+                    </li>
+                    <li>
+                        Робітник 2
+                    </li>
+                    <li>
+                        Робітник 3
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Керівник 3
+                <ul class="upper_latin">
+                    <li>
+                        Робітник 1
+                    </li>
+                    <li>
+                        Робітник 2
+                    </li>
+                    <li>
+                        Робітник 3
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        Підприємство 2
+            <ul class="disc">
+                <li>
+                    Керівник 1
+                    <ul class="upper_latin">
+                        <li>
+                            Робітник 1
+                        </li>
+                        <li>
+                            Робітник 2
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Керівник 2
+                    <ul class="disc">
+                        <li>
+                            Робітник 1
+                        </li>
+                        <li>
+                            Робітник 2
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+    </li>
+</ol>
+<p>
+    Четвертий список
+</p>
+<ol start="8" class="upper_roman">
+    <li>
+        Пункт 1
+    </li>
+    <li>
+        Пункт 2
+    </li>
+    <li>
+        Пункт 3
+    </li>
+    <li>
+        Пункт 4
+    </li>
+</ol>
+<p>
+    П'ятий список
+</p>
+<dl>
+    <dt>
+        GIF
+    </dt>
+    <dd>
+        GIF definition
+    </dd>
+    <dt>
+        JPEG
+    </dt>
+    <dd>
+        JPEG definition
+    </dd>
+</dl>
+</body>
+</html>
