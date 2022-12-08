@@ -1,0 +1,97 @@
+table {
+   border: 1px solid #000;
+   border-collapse: collapse;
+
+   margin-bottom: 30px;
+}
+
+tr,td,th{
+   border: 1px solid #000;
+   text-align: center;
+
+
+}
+
+
+/* Перша таблиця */
+#first td {
+   background-color: #E7E6E6;
+   width: 90px;
+   height: 30px;
+   padding-bottom: 10px;
+}
+
+#first td:first-child {
+   background-color: #9CC2E5;
+   width: 35px;
+}
+
+#first tr:first-child>td {
+   background-color: #FFD966;
+   font-weight: bold;
+}
+
+#first tr:last-child>td {
+   background-color: #538135;
+   font-weight: bold;
+}
+
+#first tr:last-child>td:first-child {
+   text-align: right;
+}
+
+#first td:nth-child(2) {
+   width: 170px;
+}
+
+#first td:nth-child(3) {
+   width: 140px;
+}
+
+#first td:nth-child(4) {
+   width: 100px;
+}
+
+
+/* Друга таблиця */
+#second td{
+   padding: 0 10px 3px 10px;
+}
+
+#second tr:first-child>td,
+#second tr:nth-child(2)>td{
+   font-weight: bold;
+}
+
+#second td:nth-child(3){
+   width: 175px;
+}
+
+
+/* Третя таблиця */
+#third td{
+   width: 60px;
+}
+
+#third tr{
+   height: 35px;
+}
+
+
+/* Четверта таблиця */
+#forth{
+   border-collapse: separate;
+}
+
+#forth td{
+   width: 60px;
+}
+
+#forth td:last-child,
+#forth td:nth-child(3){
+   width: 100px;
+}
+
+#forth tr{
+   height: 35px;
+}
