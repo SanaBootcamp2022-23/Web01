@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 1px 10px;
+            text-align: center;
+        }
+        thead{
+            background-color: #ffd866;
+        }
+        tfoot{
+            background-color: darkgreen;
+        }
+        .namepadding {
+            padding-bottom: 10px;
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+        .numberpadding{
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        .nbgcolor{
+            background-color: cadetblue;
+        }
+        .apadding{
+            padding-bottom: 10px;
+            padding-right: 25px;
+            padding-left: 25px;
+        }
+        .tpadding{
+            padding-bottom: 15px;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        tbody#table1{
+            background-color: gray;
+        }
+        .footpadding{
+            padding-bottom: 10px;
+            padding-right: 40px;
+            padding-left: 40px;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+<p>Перша таблиця:</p>
+<table>
+    <thead>
+        <td class="numberpadding">
+            <b>
+            №
+            </b>
+        </td>
+        <td class="namepadding">
+            <b>
+            ПІБ
+            </b>
+        </td>
+        <td class="apadding">
+            <b>
+            Адреса
+            </b>
+        </td>
+        <td class="tpadding">
+            <b>
+            Телефон
+            </b>
+        </td>
+    </thead>
+    <tbody id="table1">
+    <tr>
+        <td class="numberpadding nbgcolor">
+            1
+        </td>
+        <td class="namepadding">
+            ПІБ1
+        </td>
+        <td class="apadding">
+            Адреса1
+        </td>
+        <td class="tpadding">
+            111111
+        </td>
+    </tr>
+    <tr>
+        <td class="numberpadding nbgcolor">
+            2
+        </td>
+        <td class="namepadding">
+            ПІБ2
+        </td>
+        <td class="apadding">
+            Адреса2
+        </td>
+        <td class="tpadding">
+            2222222
+        </td>
+    </tr>
+    <tr>
+        <td class="numberpadding nbgcolor">
+            3
+        </td>
+        <td class="namepadding">
+            ПІБ3
+        </td>
+        <td class="apadding">
+            Адреса3
+        </td>
+        <td class="tpadding">
+            3333333
+        </td>
+    </tr>
+    <tr>
+        <td class="numberpadding nbgcolor">
+            4
+        </td>
+        <td class="namepadding">
+            ПІБ4
+        </td>
+        <td class="apadding">
+            Адреса4
+        </td>
+        <td class="tpadding">
+            4444444
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <td colspan="3" class="footpadding">
+        <b>
+            Загальна кількість
+        </b>
+    </td>
+    <td class="footpadding">
+ <b>       4</b>
+    </td>
+    </tfoot>
+</table>
+<p> Друга таблиця:</p>
+<table>
+    <tr>
+        <th rowspan="2">
+            номер
+        </th>
+        <th colspan="2">
+            теги
+        </th>
+    </tr>
+    <tr>
+        <th> тег</th>
+        <th> значення</th>
+    </tr>
+    <tr>
+        <td> 1</td>
+        <td> p </td>
+        <td rowspan="4">
+            Для тексту
+        </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>Таблиця</td>
+    </tr>
+    <tr>
+       <td>6</td>
+        <td>tr</td>
+        <td>ряд таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">комірки таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+<p>
+    Третя таблиця:
+</p>
+<table>
+    <tr>
+        <td rowspan="3" colspan="2">
+            1
+        </td>
+        <td colspan="2">
+            2
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            4
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="3">
+            5
+        </td>
+        <td>
+            6
+        </td>
+        <td>
+            7
+        </td>
+    </tr>
+    <tr>
+    <td>
+        8
+    </td>
+    <td rowspan="2">
+        9
+    </td>
+        <td rowspan="2" colspan="2">
+            10
+        </td>
+    </tr>
+    <tr>
+        <td>
+            11
+        </td>
+    </tr>
+</table>
+<p>
+    Четверта таблиця:
+</p>
+<table style="border-collapse: separate">
+    <tr>
+        <td rowspan="3" colspan="2">
+            1 <img src="images/picture1.png" alt="">
+        </td>
+        <td colspan="2">
+            2 <img src="images/picture2.png" alt="">
+        </td>
+        <td>
+            3 <img src="images/picture3.png" alt="">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            4
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="3">
+            5
+        </td>
+        <td>
+            6
+        </td>
+        <td>
+            7
+        </td>
+    </tr>
+    <tr>
+        <td>
+            8
+        </td>
+        <td rowspan="2">
+            9
+        </td>
+        <td rowspan="2" colspan="2">
+            10
+        </td>
+    </tr>
+    <tr>
+        <td>
+            11
+        </td>
+    </tr>
+</table>
+</body>
+</html>
