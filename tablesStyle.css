@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+.first td, .first th {
+    border: 1px solid black;
+    padding: 10px 20px;
+    background-color: lightgray;
+}
+.first tr td:first-child, .first tr th:first-child {
+    background-color: #52f0ff;
+}
+.first tr:first-child td, .first tr:first-child th{
+    background-color: #ffe76c;
+}
+.first tr:last-child td, .first tr:last-child th {
+    text-align: right;
+    background-color: #4e8235;
+}
+
+.second td, .second th {
+    border: 1px solid black;
+    padding: 0 20px;
+}
+
+.third td {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.fourth {
+    border-collapse: separate;
+    border: 1px solid black;
+}
+.fourth td {
+    border: 1px solid black;
+}
+
+img.big {
+    width: 200px;
+    height: 200px;
+}
+
+img.small {
+    width: 100px;
+    height: 100px;
+}
