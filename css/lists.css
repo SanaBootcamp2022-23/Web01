@@ -1,0 +1,48 @@
+table{
+    margin: 20px 0;
+}
+table, th,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tableOne {
+    width: 600px;
+    height: 200px;
+}
+.tableOne thead{
+    background-color: gold;
+}
+.tableOne tbody tr th{
+    background-color: silver;
+}
+.tableOne tbody tr th:first-child{
+    background-color: dodgerblue;
+}
+.tableOne tfoot tr:last-child  th{
+    background-color: green;
+}
+.tableTwo{
+    width: 400px;
+    height: 250px;
+}
+.tableThree{
+    width: 300px;
+    height: 200px;
+}
+.tableFour{
+    width: 300px;
+    height: 200px;
+}
+.tableFour,.tableFour tr,.tableFour th{
+    border-collapse: separate;
+}
+.tableFour th{
+    border: 1px solid black;
+}
+.tableFour div{
+    display: flex;
+    align-items: end;
+}
+.tableFour img{
+    width: 100px;
+}
