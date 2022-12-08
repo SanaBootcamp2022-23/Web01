@@ -1,0 +1,41 @@
+th,
+td,
+tr {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.orange-row{
+  background-color: #fed86d;
+}
+
+.blue-col{
+  background-color: #9dc2e4;
+}
+
+.grey-content{
+  background-color: #e7e6e6;
+}
+
+.green-row{
+  background-color: #548138;
+}
+
+.bold-text{
+  font-weight:bold;
+}
+
+.second-table-borders{
+  border-style: ridge !important;
+  border: 3px;
+}
+
+.fourth-table{
+  border-collapse:separate;
+  border: 1px solid black;
+}
