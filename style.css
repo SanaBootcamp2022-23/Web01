@@ -1,0 +1,41 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    padding-top:0
+}
+thead {
+    background-color: gold;
+}
+tfoot {
+    background-color: darkolivegreen;
+}
+tfoot th, tfoot td {
+    padding-bottom: 15px;
+    padding-right:5px;
+}
+
+.my-cell-1 {
+    background-color: lightskyblue;
+}
+
+.my-cell-2 {
+    background-color: #d7d0d4;
+}
+
+.my-cell-3 {
+    text-align: right;
+}
+
+.my-cell-4 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+caption {
+    text-align: left;
+    padding-bottom: 5px;
+}
