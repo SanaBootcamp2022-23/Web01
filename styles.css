@@ -1,0 +1,48 @@
+caption{
+    text-align: left;
+}
+
+td, th{
+    border:1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+.table1{
+    border-collapse: collapse;
+}
+
+.table1 thead{
+    background-color: #ffc666;
+}
+
+.table1 tfoot{
+    background-color: green;
+}
+
+.table1 tbody{
+    background-color: gainsboro;
+}
+
+.table2{
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.table3{
+    border-collapse: collapse;
+    width: 30%;
+}
+
+.blue{
+    background-color: darkcyan;
+}
+
+.table4{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.table4 td{
+    border: 1px solid black;
+}
