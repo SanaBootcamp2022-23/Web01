@@ -1,0 +1,32 @@
+/*Загальний блок*/
+.main {
+    width: 900px;
+    margin: 0 auto;
+    }
+/*Перший блок*/
+.block_01 {
+       font-size: 24px;
+       font-weight: bold;
+        width: 900px;
+        margin: 0 auto;
+   }
+/*Посилання*/
+.block_02 {
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    vertical-align: super;
+}
+/*Другий блок*/
+.block_03 {
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+/*Третій блок*/
+.block_04 {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: normal;
+    color: #8f8f8f;
+}
