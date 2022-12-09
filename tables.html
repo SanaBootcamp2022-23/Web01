@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <link rel ="stylesheet" href ="styles.css"/>
+</head>
+<body>
+<table class = "table1">
+    <col style="width:10%">
+    <col style="width:30%">
+    <col style="width:25%">
+    <col style="width:25%">
+    <caption>Перша таблиця:</caption>
+    <thead>
+        <tr>
+            <th>№</th>
+            <th>ПІБ</th>
+            <th>Адреса</th>
+            <th>Телефон</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class = "blue">1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>1111111</td>
+        </tr>
+        <tr>
+            <td class = "blue">2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>2222222</td>
+        </tr>
+        <tr>
+            <td class = "blue">3</td>
+            <td>ПІБ3</td>
+            <td>Адреса3</td>
+            <td>3333333</td>
+        </tr>
+        <tr>
+            <td class = "blue">4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>4444444</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="3">Загальна кількість</th>
+            <th>4</th>
+        </tr>
+    </tfoot>
+</table>
+<table class = "table2">
+    <col style="width:1%">
+    <col style="width:1%">
+    <col style="width:20%">
+    <caption>Друга таблиця:</caption>
+    <tr>
+        <th colspan = "2" rowspan = "2">номер</th>
+        <th colspan = "2">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th>значение</th>
+    </tr>
+    <tr>
+        <td colspan = "2">1</td>
+        <td>p</td>
+        <td rowspan = "4">для текста</td>
+    </tr>
+    <tr>
+        <td colspan = "2">2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td colspan = "2">3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td colspan = "2">4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td colspan = "2">5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td colspan = "2">6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td colspan = "2">7</td>
+        <td>td</td>
+        <td rowspan = "2"> ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td colspan = "2">8</td>
+        <td>th</td>
+    </tr>
+</table>
+<table class = "table3">
+    <caption>Третя таблиця:</caption>
+    <tr>
+        <td colspan = "3" rowspan = "3">1</td>
+        <td colspan = "2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan = "3">4</td>
+    </tr>
+    <tr>
+        <td rowspan = "4">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td colspan = "2" rowspan = "2">8<br><br><br><br><br></td>
+        <td rowspan = "3">9</td>
+        <td colspan = "2" rowspan = 3>10</td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td colspan = "1">11</td>
+    </tr>
+</table>
+<table class = "table4">
+    <caption>Четверта таблиця:</caption>
+    <tr>
+        <td rowspan="5" colspan="3">1<img alt="forest" src="images/forest.jpg" width= 150 height=150 ></td>
+        <td rowspan="3" colspan="2">2<img alt=mountain"" src="images/mountain.jpg" width="100" height="100"></td>
+        <td rowspan="3" colspan="2">3<img alt="sakura" src="images/sakura.jpg" width="100" height="100"></td>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <td colspan="4">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td colspan="2">7</td>
+    </tr>
+    <tr>
+        <td colspan="2">8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="3">10</td>
+    </tr>
+    <tr>
+        <td colspan="2">11</td>
+    </tr>
+</table>
+</body>
+</html>
