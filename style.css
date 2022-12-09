@@ -5,3 +5,27 @@ a{
 p{
     text-align: justify;
 }
+
+ul.a{
+    list-style-type: disc;
+}
+
+ul.b{
+    list-style-type: lower-alpha;
+}
+
+ul.c{
+    list-style-type: circle;
+}
+
+ul.d{
+    list-style-type: upper-roman;
+}
+
+ol,ul,dl{
+    margin: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
