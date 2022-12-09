@@ -1,0 +1,56 @@
+/*Перший список*/
+.List_01 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 100px;
+    list-style-type: disc;
+}
+.List_02 {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: decimal;
+}
+
+/*Другий список*/
+.List_03 {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: disc;
+}
+.List_04 {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: lower-alpha;
+}
+.List_05 {
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: circle;
+}
+
+/*Третій список*/
+.List_06 {
+    font-size: 20px;
+    list-style-type: decimal;
+}
+.List_07 {
+    font-size: 20px;
+    list-style-type: circle;
+}
+.List_08 {
+    font-size: 20px;
+    list-style-type: lower-roman;
+}
+.List_09 {
+    font-size: 20px;
+    list-style-type: disc;
+}
+.List_10 {
+    font-size: 20px;
+    list-style-type: upper-latin;
+}
+.List_11 {
+    font-size: 25px;
+    font-weight: normal;
+    list-style-type: upper-roman;
+}

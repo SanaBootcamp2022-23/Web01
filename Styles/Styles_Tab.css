@@ -1,0 +1,85 @@
+/*Таблица1*/
+.table_01 {
+    border: 2px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 35px;
+    width: 50%;
+}
+/*комірки*/
+.th_1 {
+    border: 2px solid #000000;
+    height: 60px;
+}
+.td_1 {
+    border: 2px solid #000000;
+    height: 60px;
+}
+
+/*Назва таблиці*/
+.caption_01 {
+    text-align: left;
+}
+
+/*Заголовок*/
+.thead_01 {
+    background: #fdd766;
+}
+
+/*Тіло*/
+.tbody_01 {
+    background: #e5e4e5;
+}
+
+/*Результат*/
+.tfoot_01 {
+    background: #528036;
+}
+
+/*номери перший столбець*/
+.number {
+    background: #9bc0e4;
+    border: 2px solid #000000;
+}
+
+/*Друга таблиця*/
+.table_02 {
+    border: 2px solid #8f8f8f;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+}
+
+/*комірки*/
+.th_2, .td_2 {
+    border: 2px solid #8f8f8f;
+    height: 60px;
+}
+
+/*третя таблиця*/
+.table_3 {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+}
+/*комірки*/
+.th_3, .td_3 {
+    border: 1px solid #000000;
+    height: 60px;
+}
+
+/*четверта*/
+.table_4 {
+    border: 1px solid #000000;
+    font-size: 25px;
+    width: 1000px;
+}
+/*комірки*/
+.th_4, .td_4 {
+    border: 1px solid #000000;
+    text-align: left;
+    height: 70px;
+}
