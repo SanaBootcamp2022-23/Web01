@@ -1,0 +1,52 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+img{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+}
+
+#t01{
+    width: 30%;
+}
+
+#t01 > th, td:first-child
+{
+    width: 5%;
+}
+
+#t01 th, td{
+    padding: 15px;
+    text-align: center;
+}
+
+#t01 th{
+    background: lightcoral;
+}
+#t01 tr:last-child{
+    background: green;
+    font-weight: bold;
+}
+
+#t02 {
+    width: 20%;
+    height: 1%;
+}
+#t02 th,td{
+    padding: 2px;
+}
+
+#t03 tr, td{
+    padding: 8px;
+}
+
+.t04{
+    border-collapse: separate;
+}
+.t04 td{
+    text-align: left;
+    position: relative;
+}
