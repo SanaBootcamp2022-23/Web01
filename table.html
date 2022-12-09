@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        /*div {*/
+        /*    margin-top: 50px;*/
+        /*    margin-bottom: 100px;*/
+        /*    margin-right: 300px;*/
+        /*    margin-left: 300px;*/
+        /*}*/
+
+        table#t01,th, td
+        {
+            width: 20%;
+            border:1px solid black;
+            border-collapse: collapse;
+
+        }
+        tr#grnrow
+        {
+            background-color: mediumpurple;
+            text-align: end;
+        }
+        tr#row1
+        {
+            background-color: deeppink;
+        }
+        tr#row2,#row3,#row4
+        {
+            background-color: deepskyblue;
+        }
+        td#cln1, #cln2, #cln3
+        {
+            background-color: aqua;
+        }
+        table#tb2
+        {
+            width: 20%;
+            border:1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table#tb3
+        {
+            width: 20%;
+
+            border:1px solid black;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        table#tb4
+        {
+            width: 20%;
+            border:1px solid black;
+        }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Task 3</title>
+</head>
+<body>
+<div>
+    <table id="t01">
+        <tr id ="row1">
+            <th>№</th>
+            <th>ПІБ</th>
+            <th>Адреса</th>
+            <th>Телефон</th>
+        </tr>
+        <tr id ="row2">
+            <td id ="cln1">2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>222222</td>
+        </tr>
+        <tr id ="row3">
+            <td id="cln2">1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>333333</td>
+        </tr>
+        <tr id ="row4">
+            <td id="cln3">4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>444444</td>
+        </tr>
+        <tr id ="grnrow">
+            <td colspan="3">Загальна кількість</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table id = "tb2">
+        <col style="width:25%">
+        <col style="width:15%">
+        <col style="width:50%">
+        <tr>
+            <th rowspan="2">номер</th>
+            <th colspan="2"> теги </th>
+        </tr>
+        <tr>
+            <th>тег</th>
+            <th>значение</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>p</td>
+            <td rowspan ="4">для текста</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>table</td>
+            <td>таблиця</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>tr</td>
+            <td>ряд таблиці</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>td</td>
+            <td rowspan="2">комірки таблицю</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>th</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+
+    <table id = "tb3">
+
+
+        <tr>
+            <td rowspan = "3" colspan = "3" >1</td>
+            <td rowspan = "1" colspan = "2">2</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+            <td rowspan="4">5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2">8<br><br><br></td>
+            <td rowspan="3">9</td>
+            <td rowspan="3" colspan="2">10</td>
+        </tr>
+        <tr> </tr>
+
+        <tr> <td>11</td></tr>
+
+
+    </table>
+    <br><br>
+    <table id = "tb4">
+
+        <tr>
+            <td rowspan = "4" colspan = "3" >1<img src="images/1img.jpg"style="width:100px;height:100px;"></td>
+            <td rowspan = "2" colspan = "2">2<img src="images/2img.jpg" style="width:100px;height:100px;"></td>
+            <td rowspan="2" colspan="2">3<img src="images/3img.jpg" style="width:100px;height:100px;"></td>
+        </tr>
+        <tr>
+
+        </tr>
+        <tr>
+            <td colspan="3">4</td>
+        </tr>
+        <tr>
+
+            <td rowspan="4">5</td>
+            <td>6</td>
+            <td colspan="2">7</td>
+        </tr>
+
+        <tr>
+            <td rowspan="1" colspan="2">8</td>
+            <td rowspan="3">9</td>
+            <td rowspan="3" colspan="2">10</td>
+        </tr>
+        <tr> </tr>
+
+        <tr> <td colspan="2">11</td></tr>
+
+    </table>
+
+</div>
+</body>
+</html>
