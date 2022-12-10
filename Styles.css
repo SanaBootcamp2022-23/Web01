@@ -1,0 +1,40 @@
+a {
+    text-decoration:none;
+}
+
+.disc li{
+    list-style-type:disc;
+}
+thead {
+    background-color:yellow;
+}
+tfoot {
+    background-color: green;
+}
+.firstTable td:first-child {
+    background-color:dodgerblue;
+}
+.firstTable {
+    width:350px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+    background-color: lightgrey;
+}
+.secondTable {
+    width:300px;
+    height:250px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: center;
+}
+.thirdTable {
+    border: 1px solid black;
+    text-align: left;
+}
+.fitPicture {
+    width: 100px;
+    height: 100px;
+}
