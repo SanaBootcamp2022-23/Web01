@@ -1,0 +1,113 @@
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* таблиця 1 */
+
+caption {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.table-1 th, .table-1 td {
+    padding-top: 5px;
+    padding-bottom: 13px;
+}
+
+.table-1-header {
+    background-color: gold;
+}
+
+.table-1 td {
+    background-color: darkgray;
+}
+
+.table-1 td.bg-blue {
+    background-color: lightskyblue;
+}
+
+.table-1 tfoot {
+    background-color: darkolivegreen;
+}
+
+.number{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.name{
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.address{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.tel{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.all {
+    text-align: right;
+    padding-right: 5px;
+}
+
+/* таблиця 2 */
+
+.number2 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.teg2{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.value {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/* таблиця 3-1 */
+
+.table-3-1 td {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+
+/* таблиця 3-2 */
+
+.table-3-2 td {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+.table-3-2 td.td-8 {
+    width: 120px;
+    height: 120px;
+}
+
+.td-4 {
+    text-align: left;
+}
+
+.td-9 {
+    text-align: left;
+    vertical-align: top;
+}
+
+/* таблиця 4 */
+
+.table-4, .table-4 th, .table-4 td {
+    border-collapse: separate;
+    text-align: left;
+    border: 1px solid black;
+}
