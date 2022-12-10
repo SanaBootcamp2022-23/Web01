@@ -1,0 +1,54 @@
+body {
+    width: 665px;
+}
+p {
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+}
+q:lang(ru) {
+    quotes: "\00AB" "\00BB";
+}
+.table-style {
+    text-align: center;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+}
+.style-table1, .style-table3{
+    border: 1px solid black ;
+}
+.style-table1-pib {
+    border: 1px solid black ;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.yellow-row {
+    background-color: yellow;
+}
+.green-row {
+    background-color: darkolivegreen;
+}
+.greycolor {
+    background-color: rgba(144,138,126,0.32);
+}
+.style-table2 {
+    border: 2px solid grey;
+}
+.style-table2-value {
+    border: 2px solid grey;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.table-style-for-4 {
+    border: 1px solid black;
+    border-collapse: separate;
+}
+.style-table4 {
+    border: 1px solid black;
+}
+img {
+    width: 100px;
+}
