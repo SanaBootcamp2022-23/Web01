@@ -1,0 +1,47 @@
+.n1-table{
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+.n1-table th, .n1-table td{
+    border: 1px solid black;
+    padding: 10px 30px;
+    text-align: center;
+}
+.n1-table thead{
+    background-color: #FFD966;
+}
+.n1-table tbody tr :first-child{
+    background-color: #9CC2E5;
+}
+.n1-table tbody tr{
+    background-color: #E7E6E6;
+}
+.n1-table tfoot{
+    font-weight: bold;
+    background-color: #538135;
+}
+.n1-table tfoot tr td:first-child{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.n2-table{
+    border-collapse: collapse;
+}
+.n2-table th, .n2-table td{
+    border: 1px solid black;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.n3-table{
+    border-collapse: collapse;
+}
+.n3-table tr td{
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.non-text-align tr td{
+    text-align: start;
+}
