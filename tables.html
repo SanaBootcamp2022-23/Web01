@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tables.html</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    p {
+      padding: 0;
+      margin: 10px 0 0 0;
+    }
+  </style>
+</head>
+<body>
+<p>Перша таблиця:</p>
+<table border="1" width="500px">
+  <colgroup>
+    <col span="1" style="background-color:lightblue">
+    <col span="2" style="background-color:lightgray ">
+    <col span="3" style="background-color:lightgray ">
+  </colgroup>
+  <thead style="background-color: yellow; text-align: center;">
+  <tr style="height: 55px">
+    <th width="40px">№</th>
+    <th width="90px">ПІБ</th>
+    <th width="70px">Адреса</th>
+    <th width="60px">Телефон</th>
+  </tr>
+  </thead>
+
+  <tbody style="text-align: center;">
+  <tr style="height: 55px">
+    <td>1</td>
+    <td>ПІБ1</td>
+    <td>Адреса1</td>
+    <td>111111</td>
+  </tr>
+
+  <tr style="height: 55px">
+    <td>2</td>
+    <td>ПІБ2</td>
+    <td>Адреса2</td>
+    <td>222222</td>
+  </tr>
+
+  <tr style="height: 55px">
+    <td>3</td>
+    <td>ПІБ3</td>
+    <td>Адреса3</td>
+    <td>333333</td>
+  </tr>
+
+  <tr style="height: 55px">
+    <td>4</td>
+    <td>ПІБ4</td>
+    <td>Адреса4</td>
+    <td>444444</td>
+  </tr>
+  </tbody>
+  <tfoot style="background-color: forestgreen;">
+  <tr style="height: 55px">
+    <td colspan="3" , style="text-align: right; font-weight: bold">Загальна кількість</td>
+    <td style="text-align: center; font-weight: bold">4</td>
+  </tr>
+  </tfoot>
+</table>
+
+<p>Друга таблиця:</p>
+<table border="1" width="20%">
+  <thead style="text-align: center;">
+  <tr>
+    <th rowspan="2">номер</th>
+    <th colspan="4">теги</th>
+  </tr>
+  <tr>
+    <th>тег</th>
+    <th>значение</th>
+  </tr>
+  </thead>
+  <tbody style="text-align: center;" colspan="1">
+  <tr>
+    <td>1</td>
+    <td>p</td>
+    <td rowspan="4">для текста</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>a</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>b</td>
+  </tr>
+  <tr>
+    <td>4
+    </th>
+    <td>i</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>table</td>
+    <td>таблица</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>tr</td>
+    <td>ряд таблицы</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>th</td>
+    <td rowspan="2">ячейки таблицы</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>td</td>
+  </tr>
+  </tbody>
+</table>
+
+<p>Третя таблиця:</p>
+<table border="1" width="300px" height="200px">
+  <tbody style="text-align: center;">
+  <tr>
+    <td rowspan="3" colspan="2">1</td>
+    <td colspan="2">2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td style="text-align: left;" colspan="3">4</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td rowspan="2">9</td>
+    <td rowspan="2" colspan="2">10</td>
+  </tr>
+  <tr>
+    <td>11</td>
+  </tr>
+  </tbody>
+</table>
+<p>Четверта таблиця:</p>
+<table border="2" width="300" height="200">
+  <tbody style="text-align: left;">
+  <tr>
+    <td rowspan="3" colspan="2">1 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg/280px-The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg" alt="Сонце" width="90" height=""></td>
+    <td colspan="2">2 <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Omar_Khayyam2.JPG/270px-Omar_Khayyam2.JPG"
+            alt="Омар Хайям" width="80" height=""></td>
+    <td>3 <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Africa_and_Europe_from_a_Million_Miles_Away.png/270px-Africa_and_Europe_from_a_Million_Miles_Away.png"
+            alt="Земля" width="80"></td>
+  </tr>
+  <tr>
+    <td style="text-align: left;" colspan="3">4</td>
+  </tr>
+  <tr>
+    <td rowspan="3">5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td rowspan="2">9</td>
+    <td rowspan="2" colspan="2">10</td>
+  </tr>
+  <tr>
+    <td>11</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
