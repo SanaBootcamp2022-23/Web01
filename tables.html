@@ -8,60 +8,64 @@
 </head>
 
 <body>
-<table>
+<!-- таблиця 1 -->
+<table class="table-1">
     <caption>Перша таблиця:</caption>
-    <thead class="my-cell-5">
+    <thead class="table-1-header">
         <tr>
-            <th>№</th>
-            <th class="my-cell-4">ПІП</th>
-            <th>Адреса</th>
-            <th>Номер телефону</th>
+            <th class="number">№</th>
+            <th class="name">ПІП</th>
+            <th class="address">Адреса</th>
+            <th class="tel">Номер телефону</th>
         </tr>
     </thead>
     <tbody>
     <tr>
-        <td class="my-cell-1">1</td>
-        <td class="my-cell-2">ПІП 1</td>
-        <td class="my-cell-2">Адреса 1</td>
-        <td class="my-cell-2">111-111</td>
+        <td class="bg-blue">1</td>
+        <td>ПІП 1</td>
+        <td>Адреса 1</td>
+        <td>111-111</td>
     </tr>
     <tr>
-        <td class="my-cell-1">2</td>
-        <td class="my-cell-2">ПІП 2</td>
-        <td class="my-cell-2">Адреса 2</td>
-        <td class="my-cell-2">222-222</td>
+        <td class="bg-blue">2</td>
+        <td>ПІП 2</td>
+        <td>Адреса 2</td>
+        <td>222-222</td>
     </tr>
     <tr>
-        <td class="my-cell-1">3</td>
-        <td class="my-cell-2">ПІП 3</td>
-        <td class="my-cell-2">Адреса 3</td>
-        <td class="my-cell-2">333-333</td>
+        <td class="bg-blue">3</td>
+        <td>ПІП 3</td>
+        <td>Адреса 3</td>
+        <td>333-333</td>
     </tr>
     <tr>
-        <td class="my-cell-1">4</td>
-        <td class="my-cell-2">ПІП 4</td>
-        <td class="my-cell-2">Адреса 4</td>
-        <td class="my-cell-2">444-444</td>
+        <td class="bg-blue">4</td>
+        <td>ПІП 4</td>
+        <td>Адреса 4</td>
+        <td>444-444</td>
     </tr>
     </tbody>
     <tfoot>
     <tr>
-        <th class="my-cell-3" colspan="3">Загальна к-сть</th>
+        <th class="all" colspan="3">Загальна к-сть</th>
         <th>4</th>
     </tr>
     </tfoot>
 </table>
 <br />
-<table class="my-cell-6">
+
+
+<!-- таблиця 2 -->
+<table>
     <caption>Друга таблиця:</caption>
     <thead>
     <tr>
-        <th rowspan="2">номер</th>
+        <th class="number2" rowspan="2">номер</th>
         <th colspan="2">теги</th>
     </tr>
     <tr>
-        <th>тег</th>
-        <th>значення</th>
+        <th class="teg2">тег</th>
+        <th class="value">значення</th>
     </tr>
     </thead>
     <tbody>
@@ -102,5 +106,137 @@
         <td>th</td>
     </tr>
     </tbody>
+    </table>
+<br />
+
+<!-- таблиця 3 -->
+<table class="table-3-1">
+    <caption>Третя таблиця (варіант 1):</caption>
+    <tr>
+        <td></td>
+        <td colspan="7" rowspan="7">1</td>
+        <td colspan="6" rowspan="2">2</td>
+        <td colspan="3" rowspan="2">3</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td class="td-4" colspan="9" rowspan="3">4</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="3" rowspan="8">5</td>
+        <td colspan="3" rowspan="2">6</td>
+        <td colspan="3" rowspan="2">7</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="4" rowspan="4">8</td>
+        <td class="td-9" colspan="3" rowspan="6">9</td>
+        <td colspan="6" rowspan="6">10</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="4" rowspan="2">11</td>
+    </tr>
+    <tr>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<br />
+
+<table class="table-3-2">
+    <caption>Третя таблиця (варіант 2):</caption>
+    <tr>
+        <td colspan="2" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td class="td-4" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td class="td-8">8</td>
+        <td class="td-9" rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+<br />
+
+<table class="table-4">
+    <caption>Четверта таблиця:</caption>
+    <tr>
+        <td colspan="2" rowspan="3">1 <img src="img/01.jpg" alt="Winter_tree" width="65"></td>
+        <td colspan="2">2 <img src="img/02.jpg" alt="Winter_tree" width="38"></td>
+        <td>3 <img src="img/03.jpg" alt="Winter_tree" width="38"></td>
+    </tr>
+    <tr>
+        <td class="td-4" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td class="td-8">8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+
+
+
 </body>
 </html>
