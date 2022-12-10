@@ -1,0 +1,59 @@
+.tables{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+.table1_head{
+    background-color: #ffd966;
+}
+.table1_body{
+    background-color: #E7E6E6;
+}
+.table1_foot{
+    background-color: #538135;
+}
+.PIB{
+    width: 100px;
+    text-align: center;
+}
+.adress{
+    width: 90px;
+    text-align: center;
+}
+.telephone{
+    width: 90px;
+    text-align: center;
+}
+
+.table2{
+    text-align: center;
+    border-collapse: collapse;
+}
+.table2_num {
+    width: 100px;
+}
+.table2_tag{
+    width: 100px;
+}
+.table2_meaning{
+    width: 150px;
+}
+
+.table3{
+    text-align: center;
+    border-collapse: collapse;
+}
+.table3_cell{
+    width: 50px;
+
+}
+
+.table4{
+    border: 1px solid black;
+}
+.table4_cell{
+    width: 100px;
+    border: 1px solid black;
+}
