@@ -1,0 +1,244 @@
+<html>
+<head>
+    <style>
+        img{
+            width: 100px;
+            height: 105px;
+        }
+        .table_3,
+        .table_3 th,
+        .table_3 td {
+            width:300px;
+            height:50px;
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .table_1,
+        .table_1 th,
+        .table_1 td {
+            padding: 15px;
+            border: 2px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        .table_1 thead{
+           background-color: orange;
+        }
+        .table_1 tr th:nth-child(2) {
+                width: 150px;
+        }
+
+         .table_1 tr th:nth-child(3) {
+                width: 100px;
+          }
+            .table_1 tfoot {
+                font-weight: bold;
+                background-color:green;
+            }
+            .table_1 tbody {
+                background-color: lightgray;
+            }
+
+                .table_1 tbody td:first-child {
+                    background-color: lightblue;
+                }
+        .table_2,
+        .table_2 th,
+        .table_2 td {
+            padding: 1% 15px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+        .table_2 tr th:last-child {
+            width: 100px;
+        }
+        .table_4,
+        .table_4 th,
+        .table_4 td {
+            border: 1px solid black;
+            padding: 5px 15px;
+            width: 290px;
+            height: 35px;
+        }
+
+            .table_4 tr:nth-child(2) td {
+                text-align: left;
+            }
+
+            .table_4 tr:nth-child(3) td:first-child {
+                vertical-align: top;
+                padding-top: 6%;
+            }
+
+            .table_4 tr:nth-child(4) td:first-child {
+                vertical-align: top;
+                padding-top: 10px;
+            }
+
+            .table_4 tr:nth-child(4) td:nth-child(2) {
+                vertical-align: top;
+                text-align: left;
+                padding-left: 1%;
+                padding-top: 1%;
+            }
+
+            .table_4 tr:nth-child(4) td:nth-child(3) {
+                padding-bottom: 10%;
+            }
+    </style>
+</head>
+<body>
+    <h3>Перша таблиця:</h3>
+
+    <table class="table_1">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>ПІБ</th>
+                <th>Адреса</th>
+                <th>Телефон</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>ПІБ 1</td>
+            <td>Адреса 1</td>
+            <td>111111</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ПІБ 2</td>
+            <td>Адреса 2</td>
+            <td>222222</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>ПІБ 3</td>
+            <td>Адреса 3</td>
+            <td>333333</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>ПІБ 4</td>
+            <td>Адреса 4</td>
+            <td>444444</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="3" , style="text-align:right">Загальна кількість</td>
+                <td>4</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Друга таблиця:</h3>
+    <table class="table_2">
+        <thead>
+            <tr>
+                <th rowspan="2">номер</th>
+                <th colspan="2">теги</th>
+            </tr>
+            <tr>
+                <th>тег</th>
+                <th>значение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>p</td>
+                <td rowspan="4">для текста</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>table</td>
+                <td>таблица</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>tr</td>
+                <td>ряд таблиц</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>td</td>
+                <td rowspan="2">ячейки таблиц</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>th</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Третя таблиця</h3>
+    <table class="table_3">
+        <tbody>
+            <tr>
+                <td rowspan="3" colspan="2"> 1 </td>
+                <td colspan="2"> 2 </td>
+                <td> 3 </td>
+            </tr>
+            <tr>
+                <td colspan="3">4</td>
+            </tr>
+            <tr>
+                <td rowspan="3">5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td rowspan="2" >9</td>
+                <td rowspan="2" colspan="2">10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <h3>Четверта таблиця</h3>
+    <table class="table_4">
+        <tbody>
+            <tr>
+                <td rowspan="3" colspan="2"><img src="img_1.jpg">1</td>
+                <td colspan="2"><img src="img_2.jpg">2</td>
+                <td><img src="img_3.jpg">3</td>
+            </tr>
+            <tr>
+                <td colspan="3">4</td>
+            </tr>
+            <tr>
+                <td rowspan="3">5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td rowspan="2">9</td>
+                <td rowspan="2" colspan="2">10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
