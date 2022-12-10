@@ -1,0 +1,18 @@
+a {
+    text-decoration: blue;
+}
+
+h3{
+    font-weight: bold;
+}
+p:nth-of-type(4), p:nth-of-type(5), p:nth-of-type(6){
+    font-style: italic;
+}
+
+p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3){
+    font-family: "Times New Roman";
+}
+hr{
+    width: 51%;
+    margin-left: 0;
+}
