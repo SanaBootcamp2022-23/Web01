@@ -5,11 +5,9 @@ table {
 th, td {
     border: 1px solid black;
     padding: 15px;
-    padding-top:0
+    padding-top:0;
 }
-thead {
-    background-color: gold;
-}
+
 tfoot {
     background-color: darkolivegreen;
 }
@@ -35,7 +33,21 @@ tfoot th, tfoot td {
     padding-right: 50px;
 }
 
+.my-cell-5 {
+    background-color: gold;
+}
+
 caption {
     text-align: left;
+    padding-bottom: 5px;
+}
+
+.my-cell-6 {
+    text-align: center;
+}
+
+.my-cell-6 th, .my-cell-6 td {
+    border: 1px solid black;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
