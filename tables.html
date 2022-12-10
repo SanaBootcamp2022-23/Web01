@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tables</title>
+  <style type="text/css">
+    table{
+      border-collapse: collapse;
+    }
+    .table1 *{
+      padding: 10px 20px;
+      border: 2px solid black;
+      text-align: center;
+      background-color: #E7E6E6;
+    }
+    .table1 th{
+      background-color: #FFD966;
+    }
+    .table1 tr td:first-of-type{
+      background-color: #9CC2E5;
+    }
+    .table1 tr:last-of-type td{
+      background-color: #538135;
+      font-weight: bold;
+    }
+    .table1 tr:last-of-type td:first-of-type{
+      text-align: right;
+    }
+    .table2 *{
+      padding: 5px 10px;
+      border: 1px solid grey;
+      text-align: center;
+    }
+    
+    .table3 td{
+      border: 1px solid black;
+      vertical-align: text-top;
+      padding: 10px;
+    }
+
+    .table4 {
+      border-collapse: separate;
+    }
+    .table4 td{
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  Перша таблиця:
+	<table class="table1">
+    <tr>
+      <th>№</th>
+      <th>ПІБ</th>
+      <th>Адреса</th>
+      <th>Телефон</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+      <td>1111</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Francisco Chang</td>
+      <td>Germany</td>
+      <td>2222</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Roland Mendel</td>
+      <td>Germany</td>
+      <td>3333</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Helen Bennett</td>
+      <td>Germany</td>
+      <td>4444</td>
+    </tr>
+    <tr>
+      <td colspan="3">Загальна кількість</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+  Друга таблиця:
+<table class="table2">
+    <tr>
+      <th rowspan="2">№</th>
+      <th colspan="2">Теги</th>
+    </tr>
+    <tr>
+      <th>Тег</th>
+      <th>Значення</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Francisco Chang</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Roland Mendel</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Helen Bennett</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Roland Mendel</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Helen Bennett</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+  Третя таблиця:
+  <table class="table3">
+    <tr>
+      <td rowspan="3" colspan="2">1</th>
+      <td colspan="2">2</th>
+      <td>3</th>
+    </tr>
+    <tr>
+      <td colspan="3">4</th>
+    </tr>
+    <tr>
+      <td rowspan="3">5</th>
+      <td>6</th>
+      <td>7</th>
+    </tr>
+    <tr>
+      <td>8</th>
+      <td rowspan="2">9</th>
+      <td colspan="2" rowspan="2">10</th>
+    </tr>
+    <tr>
+      <td>11</td>
+    </tr>
+  </table>
+
+  Четверта таблиця:
+  <table class="table4">
+    <tr>
+      <td rowspan="3" colspan="2">1<img src="1.png"></th>
+      <td colspan="2" >2<img src="2.png"></th>
+      <td >3<img src="3.png"></th>
+    </tr>
+    <tr>
+      <td colspan="3">4</th>
+    </tr>
+    <tr>
+      <td rowspan="3">5</th>
+      <td>6</th>
+      <td>7</th>
+    </tr>
+    <tr>
+      <td>8</th>
+      <td rowspan="2">9</th>
+      <td colspan="2" rowspan="2">10</th>
+    </tr>
+    <tr>
+      <td>11</td>
+    </tr>
+  </table>
+</body>
+</html>
