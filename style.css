@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+}
+
+ul.a{
+    list-style-type: disc;
+}
+
+ul.b{
+    list-style-type: lower-alpha;
+}
+
+ul.c{
+    list-style-type: circle;
+}
+
+ul.d{
+    list-style-type: upper-roman;
+}
+
+ol,ul,dl{
+    margin: 0px;
+}
+
+p{
+    margin-bottom: 0px;
+}
+
+table{
+    width: 30%;
+    margin-top: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+img.img1{
+    width: 200px;
+    height: 100px;
+}
+
+img.img2{
+    width: 150px;
+    height: 50px;
+}
+
+img.img3{
+    width: 60px;
+    height: 50px;
+}
