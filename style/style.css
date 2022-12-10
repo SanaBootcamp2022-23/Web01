@@ -1,0 +1,16 @@
+.fruits{
+    list-style-type: disc;
+}
+.vegetables{
+    list-style-type: lower-latin;
+}
+.berries{
+    list-style-type: circle;
+}
+
+.leadership{
+    list-style-type: circle;
+}
+h2{
+    margin-bottom: 0;
+}
