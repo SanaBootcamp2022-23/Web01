@@ -1,0 +1,18 @@
+th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
+.t1{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tbody{
+    width: 30px;
+}
+#sumdata{
+    text-align: right;
+}
+.pib{
+    width:  200px;
+}
