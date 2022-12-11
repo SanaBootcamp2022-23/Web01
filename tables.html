@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width:25%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th style = "background-color: yellow">№</th>
+        <th style = "background-color: yellow">ПІБ</th>
+        <th style = "background-color: yellow">Адреса</th>
+        <th style = "background-color: yellow">Телефон</th>
+    </tr>
+    <tr>
+        <td style = "background-color: blue">1</td>
+        <td style = "background-color: grey">ПІБ1</td>
+        <td style = "background-color: grey">Адреса1</td>
+        <td style = "background-color: grey">111111</td>
+    </tr>
+    <tr>
+        <td style = "background-color: blue">2</td>
+        <td style = "background-color: grey">ПІБ2</td>
+        <td style = "background-color: grey">Адреса2</td>
+        <td style = "background-color: grey">222222</td>
+    </tr>
+    <tr>
+        <td style = "background-color: blue">3</td>
+        <td style = "background-color: grey">ПІБ3</td>
+        <td style = "background-color: grey">Адреса3</td>
+        <td style = "background-color: grey">333333</td>
+    </tr>
+    <tr>
+        <td style = "background-color: blue">4</td>
+        <td style = "background-color: grey">ПІБ4</td>
+        <td style = "background-color: grey">Адреса4</td>
+        <td style = "background-color: grey">444444</td>
+    </tr>
+    <tr>
+        <th colspan = "3" style= "text-align: right; background-color: green">Загальна кількість</th>
+        <th style = "background-color: green">4</th>
+    </tr>
+</table>
+<hr>
+<table style= "width: 50%">
+    <tr>
+        <th rowspan = "2"> номер </th>
+        <th colspan = "3">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th colspan = "2">значення</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan = "4"> для тексту </td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan = "2"> комірка таблиці </td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+</table>
+
+<hr>
+<table style= "width: 50%">
+    <tr>
+        <td colspan="3" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="4" valign="top">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">8</td>
+        <td valign="top" style="text-align: left" rowspan="3">9</td>
+        <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+<hr>
+
+<table style= "width: 50%" >
+    <tr>
+        <td valign="bottom" style="text-align: left" colspan="3" rowspan="4"><img src="images\bee.jpg" alt="real bee" width="100%" height="100%">1 </td>
+        <td valign="bottom" style="text-align: left" rowspan="2" colspan="3"><img src="images\radist.jpg" alt="women in sunflowers enjoying" width="100%" height="100%">2 </td>
+        <td valign="bottom" style="text-align: left" rowspan="2" colspan="3"><img src="images\sun.jpg" alt="100% real sun" width="100%" height="100%">3</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="4">4</td>
+    </tr>
+    <tr>
+        <td valign="middle" style="text-align: left" rowspan="3">5</td>
+        <td style="text-align: left">6</td>
+        <td style="text-align: left" colspan="2">7</td>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="2">8</td>
+        <td valign="middle" style="text-align: left" rowspan="2">9</td>
+        <td valign="middle" style="text-align: left" colspan="3" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td colspan="2">11</td>
+    </tr>
+</table>
+</body>
+</html>
