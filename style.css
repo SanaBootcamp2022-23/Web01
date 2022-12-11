@@ -1,0 +1,13 @@
+/*Setting the font size for the h1 heading*/
+h1 {
+    font-size: 1.17em;
+}
+/* Align text in paragraphs by width */
+p {
+    text-align: justify
+}
+/* Setting the font size and style for the link paragraphs */
+.p {
+    font-size: 12px;
+    font-style: italic;
+}
