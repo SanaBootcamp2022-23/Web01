@@ -1,13 +1,257 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tables</title>
+    <style>
+
+        td{
+            text-align: center;
+        }
+
+        table.table1{
+            width: 50%;
+            border-collapse:collapse;
+            border-spacing:0;
+            height: auto;
+        }
+        table.table1,table.table1 td, table.table1 th {
+            border: 2px solid black;
+        }
+        table.table1 td,table.table1 th {
+            padding: 3px;
+            width: 30px;
+            height: 35px;
+        }
+        table.table1 th {
+            background: #347c99;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        table.table2{
+            width: 40%;
+            border-collapse:collapse;
+            border-spacing:0;
+            height: auto; }
+        table.table2,table.table2 td, table.table2 th {
+            border: 2px solid darkgray; }
+        table.table2 td,table.table2 th {
+            min-height:35px;padding: 3px;
+            width: 30px;
+            height: 35px; }
+        table.table2 th {
+            background: #347c99;
+            color: #fff;
+            font-weight: normal; }
+
+        table.table3{
+            width: 20%;
+            border-collapse:collapse;
+            border-spacing:0;
+            height: auto;
+        }
+        table.table3,table.table3 td, table.table3 th {
+            border: 1px solid #595959;
+        }
+        table.table3 td,table.table3 th {
+            padding: 3px;
+            width: 30px;
+            height: 35px;
+        }
+        table.table3 th {
+            background: #347c99;
+            color: #fff;
+            font-weight: normal;
+        }
+
+        table.table2{
+            width: 40%;
+            border-collapse:collapse;
+            border-spacing:0;
+            height: auto; }
+        table.table2,table.table2 td, table.table2 th {
+            border: 2px solid darkgray; }
+        table.table2 td,table.table2 th {
+            min-height:35px;padding: 3px;
+            width: 30px;
+            height: 35px; }
+        table.table2 th {
+            background: #347c99;
+            color: #fff;
+            font-weight: normal; }
+
+        table.table4{
+            width: 20%;
+            border-collapse:collapse;
+            border-spacing:0;
+            height: auto;
+        }
+        table.table4,table.table4 td, table.table4 th {
+            border: thick double #595959;
+        }
+        table.table4 td,table.table4 th {
+            padding: 3px;
+            width: 30px;
+            height: 35px;
+        }
+        table.table4 th {
+            background: #347c99;
+            color: #fff;
+            font-weight: normal;
+        }
+    </style>
 </head>
 <body>
+Перша таблиця:
+<table class="table1">
+    <tbody>
+    <tr style="background-color: gold">
+        <td style="width:3%">№</td>
+        <td style="width:20%">ПІБ</td>
+        <td style="width:18%">Адреса</td>
+        <td style="width:16%">Телефон</td>
+    </tr>
+    <tr>
+        <td style="background-color: cornflowerblue">1</td>
+        <td style="background-color: darkgray">ПІБ1</td>
+        <td style="background-color: darkgray">Адреса1</td>
+        <td style="background-color: darkgray">111111</td>
+    </tr>
+    <tr>
+        <td style="background-color: cornflowerblue">2</td>
+        <td style="background-color: darkgray">ПІБ2</td>
+        <td style="background-color: darkgray">Адреса2</td>
+        <td style="background-color: darkgray">222222</td>
+    </tr>
+    <tr>
+        <td style="background-color: cornflowerblue">3</td>
+        <td style="background-color: darkgray">ПІБ3</td>
+        <td style="background-color: darkgray">Адреса3</td>
+        <td style="background-color: darkgray">333333</td>
+    </tr>
+    <tr style="border: 0.5px solid black">
+        <td style="background-color: cornflowerblue">4</td>
+        <td style="background-color: darkgray">ПІБ4</td>
+        <td style="background-color: darkgray">Адреса4</td>
+        <td style="background-color: darkgray">444444</td>
+    </tr>
+    <tr style="background-color: forestgreen">
+        <td colspan="3" style="text-align: right">Загальна кількість</td>
+        <td>4</td>
+    </tr>
+    </tbody>
+</table>
 
+<br>
+
+Друга таблиця:
+<table class="table2">
+    <tbody>
+    <tr>
+        <td rowspan="2" style="width:4%">номер</td>
+        <td colspan="2">теги</td>
+    </tr>
+    <tr>
+        <td style="width:2%">тег</td>
+        <td style="width:20%">значение</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблица</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>ряд таблицы</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">ячейки таблицы</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+    </tbody>
+</table>
+
+<br>
+
+Третя таблиця:
+<table class="table3">
+        <tbody>
+        <tr>
+            <td colspan="2" rowspan="3">1</td>
+            <td colspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: left">4</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: top">5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td rowspan="2">9</td>
+            <td colspan="2" rowspan="2">10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+        </tr>
+        </tbody>
+    </table>
+
+Четверта таблиця:
+<table class="table4">
+    <tbody>
+    <tr>
+        <td colspan="2" rowspan="3" >1<img src="https://png.pngtree.com/png-vector/20200113/ourlarge/pngtree-cute-bunny-flying-with-balloon-png-image_2113728.jpg"  height="100px"></td>
+        <td colspan="2">2<img src="https://i.gifer.com/YARz.gif"  height="100px"></td>
+        <td>3<img src="https://www.pngplay.com/wp-content/uploads/9/Honey-Bee-Background-PNG-Image.png" height="100px" border="1"></td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align: left">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3" style="text-align: top">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
