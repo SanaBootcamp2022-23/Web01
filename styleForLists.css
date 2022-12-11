@@ -1,0 +1,23 @@
+.odinodin{
+    list-style-type: lower-roman;
+}
+
+.odintri, .dwaodin, .vegetables {
+    list-style-type:upper-alpha;
+}
+
+.KerivPidpr1{
+    list-style-type: circle;
+}
+
+.KerivPidpr2,  .odindwa, .dwadwa, .fruits{
+    list-style-type: disc;
+}
+
+.koroli{
+    list-style-type: upper-roman;
+}
+
+.Gif, .Jpeg, .last{
+    list-style-type: none;
+}
