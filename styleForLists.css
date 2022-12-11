@@ -1,20 +1,8 @@
-.fruits {
-    list-style-type: disc;
-}
-
-.vegetables{
-    list-style-type: lower-alpha;
-}
-
 .odinodin{
     list-style-type: lower-roman;
 }
 
-.odintri {
-    list-style-type:upper-alpha;
-}
-
-.dwaodin{
+.odintri, .dwaodin, .vegetables {
     list-style-type:upper-alpha;
 }
 
@@ -22,15 +10,7 @@
     list-style-type: circle;
 }
 
-.KerivPidpr2{
-    list-style-type: disc;
-}
-
-.odindwa{
-    list-style-type: disc;
-}
-
-.dwadwa{
+.KerivPidpr2,  .odindwa, .dwadwa, .fruits{
     list-style-type: disc;
 }
 
@@ -38,14 +18,6 @@
     list-style-type: upper-roman;
 }
 
-.Gif{
-    list-style-type: none;
-}
-
-.Jpeg{
-    list-style-type: none;
-}
-
-.last{
+.Gif, .Jpeg, .last{
     list-style-type: none;
 }
