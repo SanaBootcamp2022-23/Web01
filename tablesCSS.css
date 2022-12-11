@@ -1,0 +1,28 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: center;
+
+}
+th#trr {
+    background-color: green;
+}
+tr#trrE {
+    background-color: yellow;
+}
+td#trrF
+{
+    background-color: cornflowerblue ;
+}
+th#trr3{
+    background-color: green;
+    text-align: right;
+
+}
+
+
+
+
