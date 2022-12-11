@@ -22,3 +22,29 @@ a {
 {
     margin-top: 0px;
 }
+table.table1, td.table1, th.table1
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding-bottom: 10px;
+}
+table.table2, td.table2, th.table2
+{
+    text-align: center;
+    border-style:solid;
+    border-color: grey;
+    border-collapse: collapse;
+}
+table.table3, td.table3
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+table.table4, td.table4
+{
+    border: 1px solid black;
+    text-align: left;
+}
+
