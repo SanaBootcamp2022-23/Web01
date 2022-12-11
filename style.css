@@ -1,0 +1,42 @@
+body {
+
+  background: #F4F1F8;
+}
+
+.first table {
+  border-collapse: collapse; 
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+  color: #0C213B;
+}
+
+.first th {
+  padding: 10px; 
+  border: 1px solid #000000;
+}
+.first td {
+  background:rgb(237, 238, 238);
+  font-size: 0.8em;
+  padding: 5px 7px;
+  border: 1px solid #000000;
+}
+
+
+.second table {
+  border-collapse: collapse; 
+
+  color: #0C213B;
+}
+
+.second th {
+  border: 1px solid #000000;
+}
+
+.second td {
+  border: 1px solid #000000;
+}
+
+.third table{
+  border-collapse: collapse; 
+}
