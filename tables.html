@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<style>
+    .left {text-align: left; padding-left:5px}
+    .top{text-align: left;
+        padding-bottom: 50px;
+        padding-left:5px}
+    .right{
+        text-align: right;
+        padding-right: 5px;
+    }
+    .nocollapse{
+        border: 1px solid black;
+        border-collapse: separate;
+
+    }
+    .x{display: flex}
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+
+    }
+</style>
+<body>
+<h5>First Table</h5>
+<table style="width:50%">
+    <tr style="background-color: #efa325">
+        <th style="width: 5%; background-color: #efa325">#</th>
+        <th style="width: 20%">ПІБ</th>
+        <th style="width: 20%">Адреса</th>
+        <th style="width: 20%">Телефон</th>
+    </tr>
+    <tr style="background-color: #ffe3e3">
+        <th style="background-color: #D6EEEE">1</th>
+        <th>John Doe</th>
+        <th>New York</th>
+        <th>+3439907090</th>
+    </tr>
+    <tr style="background-color: #ffe3e3">
+        <th style="background-color: #D6EEEE">2</th>
+        <th>Roger Taylor</th>
+        <th>London</th>
+        <th>+457898-97097</th>
+    </tr>
+    <tr style="background-color: #ffe3e3">
+        <th style="background-color: #D6EEEE">3</th>
+        <th >Alice Lord</th>
+        <th>Ottava</th>
+        <th>98718273687</th>
+    </tr>
+    <tr style="background-color: #ffe3e3">
+        <th style="background-color: #D6EEEE">4</th>
+        <th>Bob Dylan</th>
+        <th>Los Angeles</th>
+        <th>+938776196909</th>
+    </tr>
+    <tr style="background-color: rgba(0,128,0,0.59)">
+        <th colspan="3" class="right">Загальна Кількість</th>
+        <th>4</th>
+    </tr>
+
+
+</table>
+<h5>Second Table</h5>
+<table style="width:40%">
+    <tr>
+        <th rowspan="2">Номер</th>
+        <th colspan="2">Теги</th>
+    </tr>
+    <tr>
+        <th>Тег</th>
+        <th>Значення</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>p</th>
+        <th rowspan="4">для тексту</th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>a</th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>b</th>
+    </tr>
+    <tr>
+        <th>4</th>
+        <th>i</th>
+    </tr>
+    <tr>
+        <th>5</th>
+        <th>table</th>
+        <th>таблиця</th>
+    </tr>
+    <tr>
+        <th>6</th>
+        <th>tr</th>
+        <th>рядок таблиці</th>
+    </tr>
+    <tr>
+        <th>7</th>
+        <th>td</th>
+        <th rowspan="2">комірка таблиці</th>
+    </tr>
+    <tr>
+        <th>8</th>
+        <th>th</th>
+
+    </tr>
+
+
+
+</table>
+<h5>Third Table</h5>
+<table style="width:40%; height: 200px">
+    <tr>
+        <th colspan="2" rowspan="3">1</th>
+        <th colspan="2">2</th>
+        <th>3</th>
+    </tr>
+    <tr>
+        <th colspan="3" class="left" >4</th>
+    </tr>
+    <tr>
+        <th colspan="1" rowspan="4" class="top">5</th>
+        <th>6</th>
+        <th>7</th>
+    </tr>
+    <tr>
+        <th rowspan="1">8</th>
+        <th rowspan="3">9</th>
+        <th colspan="3" rowspan="2">10</th>
+    </tr>
+    <tr>
+        <th>11</th>
+    </tr>
+
+</table>
+<h5>Fourth Table</h5>
+<table style="width:40%; height: 200px" class="nocollapse">
+    <tr>
+        <th colspan="3" rowspan="3">1<img src="https://img.freepik.com/free-vector/cute-astronaut-catching-moon-with-fishing-net-cartoon-vector-icon-illustration-science-technology_138676-5843.jpg?w=740&t=st=1670771575~exp=1670772175~hmac=72a2361938ce2c0b62ee162d76a48ff1eb7a90e9dae454d5daf2776191300204", width="100"></th>
+        <th  colspan="2">2<img src="https://img.freepik.com/free-vector/cartoon-man-sitting-home-with-laptop_74855-6963.jpg?t=st=1670771694~exp=1670772294~hmac=548a0941f468e92ad1d2c7d625603c9c9ed0b05df6bfaf7aa6dfe5af711ca6d8", width="100"></th>
+        <th  colspan="2">3<img src="https://img.freepik.com/free-vector/hand-holding-phone-with-social-media-profile-delete-button-woman-deleting-account-from-online-network-flat-vector-illustration-technology-internet-addiction-concept-banner-landing-page_74855-25485.jpg?w=900&t=st=1670773451~exp=1670774051~hmac=1a6fb02899f7e6ab8bf054e801eb9f54d194ce6d5008e60a8b5891d492775b85", width="80"></th>
+
+    </tr>
+    <tr>
+        <th colspan="3"; class="left">4</th>
+    </tr>
+    <tr>
+        <th rowspan="3" class="top">5</th>
+        <th>6</th>
+        <th>7</th>
+    </tr>
+    <tr>
+        <th colspan="2" class="left">8</th>
+        <th rowspan="2">9</th>
+        <th colspan="3" rowspan="2">10</th>
+    </tr>
+    <tr>
+        <th colspan="2" class="left">11</th>
+    </tr>
+
+</table>
+</body>
+</html>
