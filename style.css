@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background: white;
+    line-height: 1.2;
+}
+
+.container{
+    width: 100%;
+    max-width: 1085px;
+    margin: 125px 40px 40px 200px;
+}
+
+.intro_title{
+    font-size: 36px;
+}
+
+.main_text{
+    font-size: 32px;
+}
+
+.second_part{
+    font-size: 24px;
+}
+
+ th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 45px 10px 45px;
+}
+#t01 {
+
+    background-color: #ffe06c;
+}
+
+.t02 {
+
+    background-color: #94deee;
+}
+
+.t03{
+    background: green;
+    text-align: right;
+}
+
+#t03{
+    background: green;
+    text-align: center;
+}
+
+.table{
+    text-align: center;
+}
+
+.table2{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.td01{
+    text-align: center;
+}
+
+.textCentre{
+    text-align: center;
+}
+
+.table_04{
+    border: 1px solid black;
+}
+
+.tables{
+    border-collapse: collapse;
+}
