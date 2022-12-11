@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<p>Перша таблиця</p>
+<table class="t1">
+    <col><col><col style="width:100px">
+    <thead style="background-color:yellow">
+    <tr>
+        <th>№</th>
+        <th>ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+    </tr>
+    </thead>
+    <tbody style="background-color:gray">
+    <tr>
+        <td>1</td>
+        <td class="pib">ПІБ1</td>
+        <td>Адреса1</td>
+        <td>111111</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>222222</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>333333</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>444444</td>
+    </tr>
+    </tbody>
+    <tfoot style="background-color:green">
+    <tr>
+        <td id="sumdata" colspan="3">Загальна кількість</td>
+        <td>4</td>
+    </tr>
+    </tfoot>
+</table>
+
+<p>Друга таблиця</p>
+<table class="t1">
+        <col style="width:100px">
+        <col>
+        <col style="width:200px">
+    <thead>
+        <tr>
+            <th rowspan="2">Номер</th>
+            <th colspan="2">теги</th>
+        </tr>
+        <tr>
+            <th>тег</th>
+            <th>занчення</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+            <td>1</td>
+            <td>p</td>
+            <td rowspan="4">для тексту</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>a</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>table</td>
+            <td>таблиця</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>tr</td>
+            <td>ряд таблиці</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>td</td>
+            <td rowspan="2">комірки таблиці</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>th</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Третя таблиця</p>
+<table class="t1" style= "width: 50%">
+
+    <tr>
+        <td rowspan="3" colspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="4">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">8</td>
+        <td rowspan="3">9</td>
+        <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+<p>Четверта таблиця</p>
+<table border="1" style= "width: 30%" >
+    <tr>
+        <td style="text-align: left" colspan="3" rowspan="4"><img src="images\viber.png" alt="viber" width="100%" height="100%"/>1 </td>
+        <td style="text-align: left" rowspan="2" colspan="3"><img src="images\map.png" alt="map" width="100%" height="100%"/>2 </td>
+        <td style="text-align: left" rowspan="2" colspan="3"><img src="images\screen.png" alt="screen" width="100%" height="100%"/>3</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="4">4</td>
+    </tr>
+    <tr>
+        <td style="text-align: left" rowspan="3">5</td>
+        <td style="text-align: left">6</td>
+        <td style="text-align: left" colspan="2">7</td>
+    </tr>
+    <tr>
+        <td style="text-align: left" colspan="2">8</td>
+        <td style="text-align: left" rowspan="2">9</td>
+        <td style="text-align: left" colspan="3" rowspan="2">10</td>
+    </tr>
+    <tr>
+        <td colspan="2">11</td>
+    </tr>
+</table>
+</body>
+</html>
