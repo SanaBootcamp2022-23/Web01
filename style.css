@@ -1,0 +1,77 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 10px;
+    width: 600px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid #000;
+}
+th, td{
+    border: 1px solid #000;
+}
+
+
+
+/*firtst table*/
+
+.table__first{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table__first tr:first-child{
+    background-color: #ffd966;
+}
+
+.table__first tr{
+    background-color: #e7e6e6;
+}
+
+.table__first tr td:first-child{
+    background-color: #9cc2e5;
+}
+
+.table__first tr:last-child td{
+    background-color: green;
+    text-align: right;
+    font-weight: bold; 
+}
+
+/*===============================================*/
+
+/*second table*/
+
+.table__second, .table__second th, .table__second td{
+    border: 1px solid #b9b9b9;
+}
+.table__second{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/*===============================================*/
+
+
+.third__table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+/*fourth table*/
+.fourth__table img{
+    max-width: 150px;
+    height: auto;
+}
+/*===============================================*/
