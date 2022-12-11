@@ -14,3 +14,11 @@ a {
     max-width: 580px;
     text-align: justify;
 }
+.title
+{
+    margin: 0px;
+}
+.list
+{
+    margin-top: 0px;
+}
