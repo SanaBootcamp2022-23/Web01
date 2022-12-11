@@ -1,0 +1,45 @@
+.fruits, .manager2, .manager22 {
+    list-style-type: disc;
+}
+
+.vegetables {
+    list-style-type: lower-alpha;
+}
+
+.manager1 {
+    list-style-type: lower-roman;
+}
+
+.manager3, .manager21 {
+    list-style-type: upper-alpha;
+}
+
+.kings {
+    list-style-type: upper-roman;
+}
+
+.table1, .table2, .table3{
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.th1 {
+    background-color: yellow;
+}
+
+.td1 {
+    background-color: lightgrey;
+}
+
+.number {
+    background-color: cornflowerblue;
+}
+
+.total {
+    background-color: green;
+}
