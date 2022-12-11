@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Завдання 3</title>
+  <style>
+    body{
+      position: relative;
+      max-width: 1140px;
+      width: 100%;
+      margin: 0 auto;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    .table-section{
+        width: 50%;
+        text-align: center;
+
+    }
+    .table-one tr{
+        height: 50px;
+    }
+    .table-one thead{
+        background-color: #ffdf0e;
+        font-weight: 700;
+    }
+    .table-one tfoot{
+        font-weight: 700;
+        background-color: #208200;
+    }
+    .table-one tfoot td:first-child{
+      text-align: right;
+      padding:0 10px 0 0;
+    }
+    .table-three{
+      width: 250px;
+      height: 250px;
+      text-align: center;
+    }
+	.table-four{
+	border-collapse: initial; 
+	text-align: left;
+	margin-bottom: 50px;
+	}
+    img{
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+<div>
+<p>Перша таблиця:</p>
+<table class="table-one table-section">
+  <thead>
+  <tr>
+    <th>№</th>
+    <th>ПІБ</th>
+    <th>Адреса</th>
+    <th>Телефон</th>
+  </tr>
+  </thead>
+  <tr>
+    <td>1</td>
+    <td>ПІБ1</td>
+    <td>Адреса1</td>
+    <td>111111</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>ПІБ2</td>
+    <td>Адреса2</td>
+    <td>222222</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>ПІБ3</td>
+    <td>Адреса3</td>
+    <td>333333</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>ПІБ4</td>
+    <td>Адреса4</td>
+    <td>4444</td>
+  </tr>
+  <tfoot>
+  <tr>
+    <td colspan="3">Загальна кількість</td>
+    <td>4</td>
+  </tr>
+  </tfoot>
+</table>
+</div>
+<div>
+<p>Друга таблиця:</p>
+<table class="table-two table-section">
+  <tr>
+    <th rowspan="2">Номер</th>
+    <th colspan="2">Теги</th>
+  </tr>
+  <tr>
+    <th>Тег</th>
+    <th>Значення</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>p</td>
+    <td rowspan="4">для тексту</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>a</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>b</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>i</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>table</td>
+    <td>таблиця</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>tr</td>
+    <td>рядок таблиці</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>td</td>
+    <td rowspan="4">ячейки таблиці</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>th</td>
+  </tr>
+</table>
+</div>
+
+<div>
+  <p>Третя таблиця:</p>
+  <table class="table-three table-section">
+    <tr>
+      <td rowspan="3" colspan="3">1</td>
+      <td colspan="2">2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left" colspan="3">4</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; padding: 0 0 0 0"rowspan="4">5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td height="40px" colspan="2" rowspan="2">8</td>
+      <td style="text-align: left; vertical-align: top; padding: 10px 13px 0px 0px; width: 30px;" rowspan="3" >9</td>
+      <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="2">11</td>
+    </tr>
+  </table>
+</div>
+<div>
+  <p>Четверта таблиця:</p>
+  <table class="table-four">
+    <tr>
+      <td rowspan="3" colspan="3">1<img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBqXYm58_eg3tAEMYMg-0awQfRK0jR5TV6Bw&usqp=CAU" alt="зображення 1"></td>
+      <td colspan="2">2<img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmqTU3objoxj1TwuB2YgPo5mpEGSOXAT4xyg&usqp=CAU" alt="зображення 2"></td>
+      <td>3<img width="100px" height="100px" src="https://images.unian.net/photos/2022_06/thumb_files/400_0_1656497312-3436.jpg?r=310445" alt="зображення 3"></td>
+    </tr>
+    <tr>
+      <td colspan="3">4</td>
+    </tr>
+    <tr>
+      <td rowspan="4">5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="2">8</td>
+      <td rowspan="3" >9</td>
+      <td colspan="2" rowspan="3">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+      <td colspan="2">11</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
