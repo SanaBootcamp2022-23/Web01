@@ -1,0 +1,77 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table caption{
+    text-align: left;
+}
+.firstTable td, .firstTable th{
+    height: 30px;
+    vertical-align: top;
+    text-align: center;
+    padding: 5px;
+}
+.firstTable th:nth-child(1){
+    width: 40px;
+}
+.firstTable th:nth-child(2){
+    width: 150px;
+}
+.firstTable th:nth-child(3){
+    width: 100px;
+}
+.firstTable th:nth-child(4){
+    width: 80px;
+}
+.firstTable tr:last-child td{
+    font-weight: bold;
+}
+.firstTable tr:last-child td:first-child{
+    text-align: right;
+}
+.firstTable tr:first-child{
+    background-color: #f2e555;
+    
+}
+.firstTable tr td:first-child{
+    background-color: #3498eb;
+
+}
+.firstTable tr:last-child td{
+    background-color: #42b03a;
+}
+.secondTable{
+    font-size: 20px;
+}
+.secondTable td,.secondTable th{
+    text-align: center;
+    padding: 5px 30px;
+    
+}
+.secondTable, .secondTable td, .secondTable th{
+    border: 2px solid lightgray;
+}
+.thirdTable td{
+    padding: 10px;
+}
+.centerAlign{
+    text-align: center;
+}
+.rightAlign{
+    text-align: center;
+}
+.middleAlign{
+    vertical-align: middle;
+}
+.topAlign{
+    vertical-align: top;
+}
+.bottomAlign{
+    vertical-align: bottom;
+}
+.fourthTable{
+    border-collapse: separate;
+}
+.fourthTable td{
+    vertical-align: middle;
+}
