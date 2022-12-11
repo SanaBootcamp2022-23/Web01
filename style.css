@@ -1,0 +1,58 @@
+ol.vegetables{
+    list-style-type: lower-alpha;
+}
+ul.fruits{
+    list-style-type: disc;
+}
+
+ul.b{
+    list-style-type: disc;
+}
+ol.a{
+list-style-type: lower-roman;
+}
+ol.c{
+    list-style-type: upper-alpha;
+}
+ol.r{
+    list-style-type: upper-roman;
+}
+table{
+    width: 500px;
+    height: 250px;
+}
+
+table, th, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th.a{
+    background-color: #fff5a0;
+    font-weight: bold;
+}
+td.num{
+    background-color: #80d4f8;
+    width: 40px;
+}
+tr.footer>td:nth-child(1){
+    text-align: right;
+}
+tr.footer>td{
+    background-color: green;
+    font-weight: bold;
+}
+table.first{
+    background-color: #c7c7c7;
+}
+
+table.second{
+    background-color: white;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+table.images{
+    border-collapse: separate;
+}
