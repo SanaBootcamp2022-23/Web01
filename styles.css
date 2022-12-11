@@ -1,0 +1,63 @@
+
+.table1
+{
+  border-collapse: collapse;
+  width: 40%;
+}        
+            
+.bor_cen {
+  
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  
+  width: 100px;
+  text-align: center;
+}
+#gg{
+  width: 300px;
+  border: 1px solid black;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-bottom: 15px;
+
+  text-align: center;
+}
+#adr{
+  width: 300px;
+  border: 1px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+  text-align: center;
+}
+
+.bor{
+  border: 1px solid black;
+  text-align: center;
+}
+#td3{
+  width: 200px;
+}
+#td2{
+  width: 40px;
+}
+#td{
+  width: 60px;
+}
+#ram{
+  width: 29px;
+  height: 60px;
+  border: 1px solid black;
+  padding: 0px;
+}
+#r8{
+  width: 10px;
+  height: 90px;
+  border: 1px solid black;
+}
+#four{
+  border: thick double  black;
+}
