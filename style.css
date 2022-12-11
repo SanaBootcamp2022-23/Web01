@@ -1,0 +1,36 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black; 
+    text-align: center;  
+    height: 35px;
+}
+.name, .address, .phone {
+    background-color: gainsboro;
+}
+.number {
+    background-color: cornflowerblue;
+}
+tfoot {
+    background-color: green;
+}
+.sum {
+    text-align: right;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+.table4 {
+    border-style: double;
+}
+.table4 tr{
+    border-style: double;
+    border-right: double;
+}
+.table4 td{
+    border-style: double;
+    border-right: double;
+}
