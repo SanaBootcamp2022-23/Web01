@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблиці</title>
+    <style>
+        table,th,td
+        {
+         border: 1px solid black;
+         border-collapse: collapse;
+        }
+        th,td
+        {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p>Перша таблиця:</p>
+      <table style="width: 25%">
+        <tr bgcolor="#deb887">
+            <th style="width: 5%">№</th>
+            <th style="width: 40%">ПІБ</th>
+            <th>Адреса</th>
+            <th>Телефон</th>
+        </tr>
+        <tr style="text-align: center">
+            <td bgcolor="#add8e6">1</td>
+            <td bgcolor="#d3d3d3">ПІБ1</td>
+            <td bgcolor="#d3d3d3">Адреса1</td>
+            <td bgcolor="#d3d3d3">111111</td>
+        </tr>
+        <tr style="text-align: center">
+            <td bgcolor="#add8e6">2</td>
+            <td bgcolor="#d3d3d3">ПІБ2</td>
+            <td bgcolor="#d3d3d3">Адреса2</td>
+            <td bgcolor="#d3d3d3">222222</td>
+        </tr>
+        <tr style="text-align: center">
+            <td bgcolor="#add8e6">3</td>
+            <td bgcolor="#d3d3d3">ПІБ3</td>
+            <td bgcolor="#d3d3d3">Адреса3</td>
+            <td bgcolor="#d3d3d3">333333</td>
+        </tr>
+        <tr style="text-align: center">
+            <td bgcolor="#add8e6">4</td>
+            <td bgcolor="#d3d3d3">ПІБ4</td>
+            <td bgcolor="#d3d3d3">Адреса4</td>
+            <td bgcolor="#d3d3d3">444444</td>
+        </tr>
+        <tr bgcolor="#006400">
+            <th colspan="3" style="text-align: right">Загальна кількість</th>
+            <th>4</th>
+        </tr>
+      </table>
+    <p>Друга таблиця:</p>
+        <table style="width: 25%">
+            <tr>
+                <th style="width: 60px" rowspan="2">номер</th>
+                <th colspan="2">теги</th>
+            </tr>
+            <tr>
+                <th style="width: 40px">тег</th>
+                <th>значення</th>
+            </tr>
+            <tr>
+                <td style="text-align: center">1</td>
+                <td style="text-align: center">p</td>
+                <td rowspan="4" style="text-align: center">для текста</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">2</td>
+                <td style="text-align: center">a</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">3</td>
+                <td style="text-align: center">b</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">4</td>
+                <td style="text-align: center">i</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">5</td>
+                <td style="text-align: center">table</td>
+                <td style="text-align: center"> таблиця</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">6</td>
+                <td style="text-align: center">tr</td>
+                <td style="text-align: center">ряд таблиці</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">7</td>
+                <td style="text-align: center">td</td>
+                <td rowspan="2" style="text-align: center">ячейки таблиці</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">8</td>
+                <td style="text-align: center">th</td>
+            </tr>
+        </table>
+    <p>Третя таблиця:</p>
+        <table style="width: 20%;">
+            <tr>
+                <td style="text-align: center" rowspan="3" colspan="3">1</td>
+                <td style="text-align: center" colspan="2">2</td>
+                <td style="text-align: center">3</td>
+            </tr>
+            <tr>
+                <td colspan="3">4</td>
+            </tr>
+            <tr>
+                <td style="text-align: start" rowspan="4">5</td>
+                <td style="text-align: center">6</td>
+                <td style="text-align: center">7</td>
+            </tr>
+            <tr>
+                <td style="text-align: center" colspan="2" rowspan="2">8</td>
+                <td rowspan="3">9</td>
+                <td style="text-align: center" colspan="2" rowspan="3">10</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td style="text-align: center" colspan="2">11</td>
+            </tr>
+        </table>
+    <p>Четверта таблиця:</p>
+        <table style="width: 20%;">
+            <tr>
+                <td colspan="4" rowspan="4"><img src="https://staskulesh.com/wp-content/uploads/2017/12/www.retinaextension.com_.png" style="width: 180px; height: 180px;">1</td>
+                <td style="height: 100px" colspan="2" rowspan="2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Hungary_road_sign_C-033-100.svg/2048px-
+                Hungary_road_sign_C-033-100.svg.png" style="width: 100px; height: 100px">2</td>
+                <td style="height: 100px" colspan="1" rowspan="2"><img src="https://abrakadabra.fun/uploads/posts/2021-11/1636034737_2-abrakadabra-fun-p-piksel-art-bravo-stars-3.jpg"
+                style="width: 100px;height: 100px"> 3</td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td colspan="4">4</td>
+            </tr>
+            <tr>
+                <td rowspan="3">5</td>
+                <td>6</td>
+                <td colspan="2">7</td>
+            </tr>
+            <tr>
+                <td colspan="3">8</td>
+                <td rowspan="2">9</td>
+                <td colspan="2" rowspan="2">10</td>
+            </tr>
+            <tr>
+                <td colspan="3">11</td>
+            </tr>
+        </table>
+
+</body>
+</html>
