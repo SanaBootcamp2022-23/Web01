@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <style>
+        table {
+
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <colgroup>
+        <col style="background-color: deepskyblue">
+    </colgroup>
+
+
+    Перша таблиця:
+    <thead style="background-color: darkgoldenrod">
+    <tr>
+        <th>№</th>
+        <th colspan="5" style=" width: 4cm">ПІБ</th>
+        <th colspan="4" style="width: 3cm">Адреса</th>
+        <th colspan="3" style="width: 2cm">Телефон</th>
+    </tr>
+    </thead>
+
+    <tbody style="text-align: center">
+    <tr>
+        <td>1</td>
+        <td colspan="5">ПІБ</td>
+        <td colspan="4">Адреса 1</td>
+        <td colspan="3">111111</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td colspan="5">ПІБ</td>
+        <td colspan="4">Адреса 2</td>
+        <td colspan="3">222222</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td colspan="5">ПІБ</td>
+        <td colspan="4">Адреса 3</td>
+        <td colspan="3">333333</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td colspan="5">ПІБ</td>
+        <td colspan="4">Адреса 4</td>
+        <td colspan="3">444444</td>
+    </tr>
+
+    <tfoot style="background-color: green">
+    <tr>
+        <th colspan="10" style="text-align: right">Загальна кількість</th>
+        <td style="text-align: center">4</td>
+    </tr>
+    </tfoot>
+</table>
+Друга таблиця:
+<table style="text-align: center">
+    <thead>
+    <tr>
+        <th colspan="2" rowspan="2" style="width: 2cm">номер</th>
+        <th colspan="5" style="width:7cm">теги</th>
+    </tr>
+    <tr>
+        <th>тег</th>
+        <th colspan="4">значення</th>
+    </tr>
+    </thead>
+
+
+    <tr>
+        <td colspan="2">1</td>
+        <td>p</td>
+        <td colspan="4" rowspan="4">для текста</td>
+    </tr>
+    <tr>
+        <td colspan="2">2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td colspan="2">3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td colspan="2">4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td colspan="2">5</td>
+        <td>table</td>
+        <td colspan="4">таблиця</td>
+    </tr>
+    <tr>
+        <td colspan="2">6</td>
+        <td>tr</td>
+        <td colspan="4">ряд таблиці</td>
+    </tr>
+    <tr>
+        <td colspan="2">7</td>
+        <td>td</td>
+        <td colspan="4" rowspan="2">комірки таблиці</td>
+    </tr>
+    <tr>
+        <td colspan="2">8</td>
+        <td>th</td>
+    </tr>
+</table>
+Третя таблиця:
+<table>
+    <tr style="text-align: center">
+        <td colspan="3" rowspan="3" style="width:2cm;">1</td>
+        <td colspan="2" style="width:2cm">2</td>
+        <td style="width: 1cm">3</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">4</td>
+    </tr>
+
+    <tr>
+        <td rowspan="4" style="vertical-align: top; text-align: center">5</td>
+        <td style="text-align: center">6</td>
+        <td style="text-align: center">7</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" rowspan="2" style="height: 1cm; text-align: center">8</td>
+        <td rowspan="3" style="vertical-align: top">9</td>
+        <td colspan="2" rowspan="3" style="text-align: center">10</td>
+    </tr>
+    <tr></tr>
+    <tr>
+        <td colspan="2" style="text-align: center">11</td>
+    </tr>
+</table>
+Четверта таблиця:
+<table>
+    <tr>
+        <td colspan="3" rowspan="3">1 <img
+                height="200"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcZ5ZqfnY7jqe71dtm61E5p8T7zw9Q9a9N2w&usqp=CAU" width="150"></td>
+        <td colspan="2">2<img
+                height="100"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaOH52jKzWe3zV3qLXP1wiEqrKHBgof-SVrQ&usqp=CAU" width="100"></td>
+        <td colspan="2">3 <img
+                height="100"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMKHcLRxWiPzX4afyZWSOrMYDMa69IgaQsWQ&usqp=CAU" width="100"></td>
+    </tr>
+
+    <tr>
+        <td colspan="4">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td colspan="2">7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="4" rowspan="2" style="text-align: center">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+</table>
+
+</body>
+</html>
