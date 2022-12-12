@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!--Первая таблица-->
+<div>
+  <table class="tableFirstTask">
+    <caption style="text-align: left">Перша таблиця:</caption>
+    <colgroup>
+      <col style="background-color: lightskyblue">
+      <col style="background-color: lightgray">
+      <col style="background-color: lightgray">
+      <col style="background-color: lightgray">
+    </colgroup>
+    <thead>
+      <tr style="background-color: gold">
+        <th style="width: 30px">№</th>
+        <th style="width: 180px">ПІБ</th>
+        <th>Адреса</th>
+        <th>Телефон</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td >ПІБ1</td>
+        <td>Адреса1</td>
+        <td>11111</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ПІБ2</td>
+        <td>Адреса2</td>
+        <td>22222</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>ПІБ3</td>
+        <td>Адреса3</td>
+        <td>33333</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>ПІБ4</td>
+        <td>Адреса4</td>
+        <td>44444</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr style="font-weight: bold;background-color: green">
+        <td colspan="3" style="text-align: right; padding: 0 0 15px">Зальгальна кількість</td>
+        <td style="text-align: center">4</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+<br>
+<div>
+  <!--Вторая таблица-->
+  <table class="tableSecondTask">
+    <caption style="text-align: left">Друга таблиця:</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Номер</th>
+        <th colspan="2">Теги</th>
+      </tr>
+      <tr>
+        <th>Тег</th>
+        <th>Значение</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>1</td>
+      <td>p</td>
+      <td rowspan="4">Для текста</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>b</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>i</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>table</td>
+      <td>Таблиця</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>tr</td>
+      <td>Ряд таблиці</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>td</td>
+      <td rowspan="2">Ячейки таблиці</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>th</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+<br>
+<!--Третья таблица:-->
+<div>
+  <table class="tableThirdTask">
+    <caption style="text-align: left">Третя таблиця</caption>
+    <tr>
+      <td rowspan="3" colspan="2">1</td>
+      <td colspan="2">2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: left; padding-left: 5px">4</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="vertical-align: top; padding-top: 10px">5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td style="height: 60px">8</td>
+      <td rowspan="2" style="vertical-align: top; text-align: left;">&nbsp;9</td>
+      <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+      <td>11</td>
+    </tr>
+  </table>
+</div>
+<br>
+<!--Четверта таблиця-->
+<div>
+  <table class="tableFourthTask">
+    <caption style="text-align: left">Четверта таблиця:</caption>
+    <tr>
+      <td rowspan="3" colspan="2" style="vertical-align: bottom; text-align: left">1<img src="https://brain.com.ua/static/images/prod_img/2/4/U0418624_2big.jpg" height="100" alt="logo"></td>
+      <td colspan="2">2<img src="https://static2.gazeta.ua/img2/cache/gallery/1045/1045496_1_w_570.jpg?v=0" height="80" alt="logo"></td>
+      <td>3<img src="https://cs9.pikabu.ru/post_img/big/2020/07/19/11/1595187776161315419.jpg" height="80" alt="logo"></td>
+    </tr>
+    <tr>
+      <td colspan="3">4</td>
+    </tr>
+    <tr>
+      <td rowspan="3">5</td>
+      <td>6</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td rowspan="2">9</td>
+      <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+      <td>11</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
