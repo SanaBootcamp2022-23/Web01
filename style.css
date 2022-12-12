@@ -1,0 +1,144 @@
+/* index.html*/
+
+    /*Setting the font size for the h1 heading*/
+    h1 {
+        font-size: 1.17em;
+    }
+
+    /* Align text in paragraphs by width */
+    p {
+        text-align: justify
+    }
+
+    /* Setting the font size and style for the link paragraphs */
+    .p {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+/* lists.html */
+
+    /* We remove the line after individual paragraphs in the lists */
+    .p1 {
+        margin-bottom: 0;
+    }
+
+    /* We delete the line before individual lists*/
+    .list1 {
+        margin-top: 0;
+    }
+
+    /* We change the list marker */
+    .list21 {
+        list-style-type: disc;
+    }
+
+    /* Align text by width */
+    dd {
+        text-align: justify
+    }
+
+/* tables.html */
+
+    /* General properties of tables and cells */
+
+    caption {
+            font-size: 0.5em;
+            text-align: left;
+    }
+
+    table {
+            border-collapse: collapse;
+            margin-bottom: 10px;
+    }
+
+    /* Properties of the first table */
+
+    .table1 {
+            width: 240px;
+            height: 110px;
+    }
+
+    .table1 tr td, .table1 th { border: 1px solid black }
+
+    .head1 {
+            font-size: 0.6em;
+            background-color: gold;
+            text-align: center;
+    }
+
+    .body1 {
+            font-size: 0.5em;
+            background-color: lightgrey;
+            text-align: center;
+    }
+
+    .foot1 {
+            font-size: 0.6em;
+            background-color: green;
+            text-align: center;
+    }
+
+    .color-cell { background-color: lightblue; }
+
+    .together { text-align: right; }
+
+    /* Properties of the second table */
+
+    .table2 tr td, .table2 th {
+            border: 1px ridge lightgrey;
+            background-color: white;
+            text-align: center;
+            font-size: 0.6em;
+    }
+    .table2 {
+            width: 220px;
+            height: 140px;
+    }
+
+
+    /* Properties of the third table */
+
+    .table3 tr td {
+            border: 0.01em solid black;
+            background-color: white;
+            text-align: center;
+            font-size: 0.6em;
+    }
+
+    .table3 {
+            width: 210px;
+            height: 150px;
+    }
+
+    .table3 .cell4 {
+            text-align: left;
+            padding-left: 5px;
+    }
+
+    .table3 .cell5 {
+            vertical-align: top;
+            padding-top: 18px;
+    }
+
+    .table3 .cell9 {
+            text-align: left;
+            vertical-align: top;
+            padding-left: 5px;
+    }
+
+    /* Properties of the fourth table */
+
+    .table4 tr td {
+            border: 1px inset lightgrey;
+            background-color: white;
+            font-size: 0.6em;
+    }
+
+    .table4 {
+            border-collapse: separate;
+            border-spacing: 1px;
+            border: 1px outset lightgrey;
+    }
+
+
