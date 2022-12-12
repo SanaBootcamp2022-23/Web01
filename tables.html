@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Практична HTML/CSS 01 п.6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!--Implementation of item 6 of practical work HTML/CSS 01 -->
+
+ <!-- Table №1-->
+
+      <table class="table1">
+          <caption>Перша таблиця:</caption>
+            <colgroup>
+                    <col style="width:7%">
+                    <col style="width:39%">
+                    <col style="width:31%">
+                    <col style="width:23%">
+            </colgroup>
+                <thead class="head1">
+                    <tr>
+                        <th>№</th>
+                        <th>ПІБ</th>
+                        <th>Адреса</th>
+                        <th>Телефон</th>
+                    </tr>
+                </thead>
+                <tbody class="body1">
+                    <tr>
+                        <td class="color-cell">1</td>
+                        <td>ПІБ1</td>
+                        <td>Адреса1</td>
+                        <td>111111</td>
+                    </tr>
+                    <tr>
+                        <td class="color-cell">2</td>
+                        <td>ПІБ2</td>
+                        <td>Адреса2</td>
+                        <td>222222</td>
+                    </tr>
+                    <tr>
+                        <td class="color-cell">3</td>
+                        <td>ПІБ3</td>
+                        <td>Адреса3</td>
+                        <td>333333</td>
+                    </tr>
+                    <tr>
+                        <td class="color-cell">4</td>
+                        <td>ПІБ4</td>
+                        <td>Адреса4</td>
+                        <td>444444</td>
+                        </tr>
+                </tbody>
+                <tfoot class="foot1">
+                    <tr>
+                        <th colspan="3" class="together">Загальна кількість</th>
+                        <th>4</th>
+                    </tr>
+                </tfoot>
+      </table>
+
+<!-- Table №2 -->
+
+      <table class="table2">
+          <caption>Друга таблиця:</caption>
+            <colgroup>
+                    <col style="width:23%">
+                    <col style="width:19%">
+                    <col style="width:58%">
+            </colgroup>
+                <thead>
+                    <tr>
+                        <th rowspan="2">номер</th>
+                        <th colspan="2">теги</th>
+                    </tr>
+                    <tr>
+                        <th>тег</th>
+                        <th>значение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>p</td>
+                        <td rowspan="4">для текста</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>a</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>b</td>
+                    </tr>
+                     <tr>
+                        <td>4</td>
+                        <td>i</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>table</td>
+                        <td>таблица</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>tr</td>
+                        <td>ряд таблицы</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>td</td>
+                        <td rowspan="2">ячейки таблицы</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>th</td>
+                    </tr>
+                </tbody>
+      </table>
+
+<!-- Table №3 -->
+
+      <table class="table3">
+          <caption>Третя таблиця:</caption>
+            <colgroup>
+                    <col style="width:28%">
+                    <col style="width:18%">
+                    <col style="width:18%">
+                    <col style="width:18%">
+                    <col style="width:18%">
+            </colgroup>
+                    <tr>
+                        <td colspan="2" rowspan="3">1</td>
+                        <td colspan="2">2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="cell4">4</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3" class="cell5">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td rowspan="2" class="cell9">9</td>
+                        <td colspan="2" rowspan="2">10</td>
+                    <tr>
+                        <td>11</td>
+                    </tr>
+      </table>
+
+<!-- Table №4 -->
+
+      <table class="table4">
+          <caption>Четверта таблиця:</caption>
+                    <tr>
+                        <td colspan="2" rowspan="3">
+                            1<img src="/images/Balloon.jfif" alt="HTML5 Icon" style="width:50px;height:80px;">
+                        </td>
+                        <td colspan="2">
+                            2<img src="/images/Cat.jfif" alt="HTML5 Icon" style="width:50px;height:50px;"
+                        </td>
+                        <td>
+                            3<img src="/images/Bee.jfif" alt="HTML5 Icon" style="width:50px;height:50px;"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">4</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td rowspan="2">9</td>
+                        <td colspan="2" rowspan="2">10</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                    </tr>
+      </table>
