@@ -1,0 +1,142 @@
+p{
+    font-size: 24px;
+}
+
+.table1{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 22px;
+    text-align: center;
+}
+
+.table1 tr th, .table1 tr td{
+    border: 1px solid #000;
+}
+
+.table1 td:nth-child(1){
+    background-color: cornflowerblue;
+}
+
+.table1 .t1title_row{
+    background-color: gold;
+}
+
+.table1 td:nth-child(2), .table1 td:nth-child(3), .table1 td:nth-child(4){
+    background-color: silver;
+}
+
+.table1 .t1row5 td{
+    font-weight: bold;
+    background-color: darkgreen !important;
+}
+
+.table1 .t1row5 td:nth-child(1){
+    text-align: right;
+}
+
+.table1 th:nth-child(1){
+    padding: 10px 8px;
+    min-width: 30px;
+}
+
+.table1 th:nth-child(2), .table1 td:nth-child(2){
+    padding: 10px 70px;
+}
+
+.table1 th:nth-child(3), .table1 td:nth-child(3){
+    padding: 10px 45px;
+}
+
+.table1 th:nth-child(4), .table1 td:nth-child(4){
+    padding: 10px 35px;
+}
+
+.table2{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 22px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.table2 tr th, tr td{
+    border: 1px solid #000;
+}
+
+.table2 .t2row1 td:nth-child(1), .t2row2 td:nth-child(1), .t2row3 td:nth-child(1),
+.t2row4 td:nth-child(1), .t2row5 td:nth-child(1), .t2row6 td:nth-child(1),
+.t2row7 td:nth-child(1), .t2row8 td:nth-child(1){
+    padding: 6px 50px;
+}
+
+.table2 .t2row1 td:nth-child(2){
+    padding: 6px 30px;
+}
+
+.table2 .t2row1 td:nth-child(3){
+    padding: 6px 70px;
+}
+
+.table3{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.table3 .t3cell1-3 td{
+    padding: 6px 30px;
+    text-align: center;
+}
+
+.table3 .t3cell4 td{
+    padding: 6px 30px;
+    text-align: left;
+}
+
+.table3 .t3cell5-7 td{
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.table3 .t3cell8-10 td{
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.table3 .t3cell11 td{
+    padding: 6px 30px;
+    text-align: center;
+}
+
+.table4{
+    border: 1px solid #000;
+    border-collapse: collapse;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.table4 .t4cell1-3 td{
+    padding: 6px 30px;
+    text-align: center;
+}
+
+.table4 .t4cell4 td{
+    padding: 6px 30px;
+    text-align: left;
+}
+
+.table4 .t4cell5-7 td{
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.table4 .t4cell8-10 td{
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.table4 .t4cell11 td{
+    padding: 6px 30px;
+    text-align: center;
+}
