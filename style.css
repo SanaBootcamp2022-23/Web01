@@ -1,0 +1,63 @@
+.tableFirstTask {
+    border-collapse: collapse;
+    width: 500px;
+    height: 200px;
+}
+.tableFirstTask th {
+    border: 2px solid black;
+    padding: 5px 0 15px 0;
+}
+.tableFirstTask td {
+    border: 2px solid black;
+    padding: 5px 0 15px;
+    text-align: center;
+}
+
+
+.tableSecondTask{
+    border-collapse: collapse;
+    width: 500px;
+    height: 300px;
+}
+.tableSecondTask th {
+    border: 2px solid grey;
+    padding: 5px 0 15px 0;
+}
+.tableSecondTask td {
+    border: 2px solid grey;
+    padding: 5px 0 15px;
+    text-align: center;
+}
+
+
+.tableThirdTask{
+    border-collapse: collapse;
+    width: 350px;
+    height: 100px;
+}
+.tableThirdTask th {
+    border: 1px solid black;
+    padding: 5px 0 15px 0;
+}
+.tableThirdTask td {
+    border: 1px solid black;
+    padding: 5px 0 15px;
+    text-align: center;
+}
+
+
+.tableFourthTask{
+    border-collapse: separate;
+    border: 1px solid grey;
+    width: 300px;
+    height: 100px;
+}
+.tableFourthTask td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+
+pre{
+    font-family: "Times New Roman", serif;
+}
