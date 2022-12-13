@@ -1,0 +1,60 @@
+.table123 {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    width: 300px;
+    height: 235px;
+    margin-bottom: 20px;
+}
+
+.table1 th, .table1 td {
+    padding-bottom: 10px;
+}
+
+.thead_table1 {
+    background-color: #ffd765;
+}
+
+.tbody_table1 {
+    background-color: #e7e6e6;
+}
+
+.number_table1 {
+    background-color: #8ec3e6;
+}
+
+.width_PIP {
+    width: 100px;
+}
+
+.right {
+    text-align: right;
+}
+
+.tfoot_table1 {
+    background-color: #41823a;
+    font-weight: bold;
+}
+
+.left {
+    text-align: left;
+}
+
+.top {
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.table4 {
+    border-collapse: separate;
+    text-align: left;
+    width: auto;
+    height: auto;
+}
+
+th, td {
+    border: 1px solid black;
+}
