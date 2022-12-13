@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lists</title>
+    <style>
+        .disc {
+            list-style-type:disc
+        }
+    </style>
+</head>
+<body>
+    <p>Перший список:</p>
+    <ul>
+        <li>Троянда</li>
+        <li>Гвоздики</li>
+        <li>Тюльпани</li>
+        <li>Ромашки</li>
+    </ul>
+
+    <p>Другий список:</p>
+    <ol>
+        <li>
+            Фрукти:
+            <ul class="disc">
+                <li>Ананас</li>
+                <li>Апельсин</li>
+                <li>Банан</li>
+                <li>Яблоко</li>
+                <li>Мандарин</li>
+            </ul>
+        </li>
+
+        <li>
+            Овочі:
+            <ol type="a">
+                <li>Картопля</li>
+                <li>Огірок</li>
+                <li>Буряк</li>
+                <li>Морква</li>
+                <li>Баклажан</li>
+            </ol>
+        </li>
+
+        <li>
+            Ягоди:
+            <ul>
+                <li>Полуниця</li>
+                <li>Малина</li>
+                <li>Смородина</li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>Третій список:</p>
+    <ol>
+        <li>
+            Підприємство 1
+            <ul>
+                <li>
+                    Керівник 1
+                    <ol type="i">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ol>
+                </li>
+                <li>
+                    Керівник 2
+                    <ul class="disc">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ul>
+                </li>
+                <li>
+                    Керівник 3
+                    <ol type="A">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                        <li>Робітник 3</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Підприємство 2
+            <ul class="disc">
+                <li>
+                    Керівник 1
+                    <ol type="A">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                    </ol>
+                </li>
+                <li>
+                    Керівник 2
+                    <ul class="disc">
+                        <li>Робітник 1</li>
+                        <li>Робітник 2</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ol>
+
+    <p>Четвертий список:</p>
+    <ol type="I"  start="8">
+        <li>Король Магнум XLIV</li>
+        <li>Король Зигфрид XVI</li>
+        <li>Король Сигизмуд XXI</li>
+        <li>Король Хусбрандт I</li>
+    </ol>
+
+    <p>П'ятий список</p>
+    <dl>
+        <dt>HTTP</dt>
+        <dd>Протокол передачі даних, що використовується в комп'ютерних мережах. Назва скорочена від HyperText Transfer
+            Protocol, протокол передачі гіпертекстових документів HTTP належить до протоколів моделі OSI 7-го прикладного
+            рівня.
+        </dd>
+        <dt>WWW</dt>
+        <dd>
+            Це розподiлена мережева гiпертекстова iнформацiйна система. Абревiатура WWW розшифровується як World Wide Web,
+            що дослiвно перекладається як "Всесвiтнє павутиння". Альтернативною назвою WWW є Web.
+        </dd>
+    </dl>
+</body>
+</html>
