@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+    <style>
+        table#tt4 {
+            border-collapse: separate;
+            border-spacing: 3px;
+            text-align: left;
+        }
+        th#tt4 {
+            text-align: left;
+        }
+        table#tt1, table#tt2, table#tt3, td, th {
+            border: 1px solid black;
+            border-spacing: 0px;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        table#tt1, table#tt2, table#tt3, th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        #t01 {
+            background-color: orange;
+            color: black;
+        }
+        #n1, #n2, #n3, #n4 {
+            background-color: cornflowerblue;
+            color: black;
+        }
+        #p1, #p2, #p3, #p4, #a1, #a2, #a3, #a4, #t1, #t2, #t3, #t4 {
+            background-color: lightgrey;
+            color: black;
+        }
+        #t04, #n44 {
+            background-color: green;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<h2>Перша таблиця:</h2>
+<table style="width:30%" id="tt1">
+    <tr id="t01">
+        <th style="width:5%" >№</th>
+        <th style="width:25%" >ПІБ</th>
+        <th style="width:20%">Адреса</th>
+        <th style="width:15%" >Телефон</th>
+    </tr>
+    <tr>
+        <td id="n1">1</td>
+        <td id="p1">ПІБ1</td>
+        <td id="a1">Адреса1</td>
+        <td id="t1">111111</td>
+    </tr>
+    <tr>
+        <td id="n2">2</td>
+        <td id="p2">ПІБ2</td>
+        <td id="a2">Адреса2</td>
+        <td id="t2">222222</td>
+    </tr>
+    <tr>
+        <td id="n3">3</td>
+        <td id="p3">ПІБ3</td>
+        <td id="a3">Адреса3</td>
+        <td id="t3">333333</td>
+    </tr>
+    <tr>
+        <td id="n4">4</td>
+        <td id="p4">ПІБ4</td>
+        <td id="a4">Адреса4</td>
+        <td id="t4">444444</td>
+    </tr>
+    </tr>
+    <tr>
+        <td colspan="3" id="t04"><b>Загальна кількість</b></td>
+        <td id="n44"><b>4</b></td>
+    </tr>
+</table>
+
+
+<h2>Друга таблиця:</h2>
+<table style="width:30%" id="tt2">
+    <tr style="height:5px">
+        <th style="width:5%" rowspan="2">номер</th>
+        <th style="width:25%" colspan="2">теги</th>
+    </tr>
+    <tr>
+        <td><b>тег</b></td>
+        <td><b>значення</b></td>
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>p</td>
+        <td rowspan="4">для тексту</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>a</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>b</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>i</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>table</td>
+        <td>таблиця</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>tr</td>
+        <td>рядок таблиці</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>td</td>
+        <td rowspan="2">осередки таблиці</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>th</td>
+    </tr>
+    </tr>
+</table>
+
+<h2>Третя таблиця:</h2>
+<table style="width:30%" id="tt3">
+    <tr>
+        <td colspan="3" rowspan="3">1</td>
+        <td colspan="2">2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td colspan="3">4</td>
+
+    </tr>
+    <tr>
+        <td rowspan="5">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td rowspan="2" colspan="2">8</td>
+        <td rowspan="4">9</td>
+        <td colspan="2" rowspan="4">10</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+        <td colspan="2">.</td>
+    </tr>
+    <tr>
+        <td rowspan="2">11</td>
+        <td colspan="2"></td>
+
+    </tr>
+
+</table>
+<h2>Четверта таблиця:</h2>
+<table border="2" width="300" height="200">
+    <tbody style="text-align: left;">
+    <tr>
+        <td rowspan="3" colspan="2">1 <img src="https://www.poglyad.tv/wp-content/uploads/2019/09/23_mavpa.jpg"  width=100" height="150"></td>
+        <td colspan="2">2 <img src="https://vgorode.ua/img/article/12135/33_main-v1658234554.jpg" width="90" height="90" </td>
+        <td>3 <img src="https://12.org.ua/image.php?base=itemimage&id=160&h=667&sw=1000" width="90" height="90" </td>
+
+    </tr>
+    <tr>
+        <td style="text-align: left;" colspan="3">4</td>
+    </tr>
+    <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="2">10</td>
+    </tr>
+    <tr>
+        <td>11</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
