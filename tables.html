@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #table1, #table2, #table3 {
+      border-collapse: collapse;
+    }
+  </style>
+
+  <style>
+    #td11, #th11, #tr11{
+      border:2px solid black;
+      padding: 15px;
+    }
+  </style>
+
+  <style>
+    #th2, #tr2, #td2{
+      border:1px solid grey;
+      padding: 5px;
+    }
+  </style>
+
+  <style>
+    #tr3, #td3{
+      border:1px solid grey;
+      padding: 5px;
+    }
+  </style>
+
+  <style>
+    #table1, #table2, #table3 {
+      border: 2px solid black;
+      text-align:center;
+    }
+  </style>
+
+  <style>
+    #table2{
+      border: 1px solid black;
+      text-align:center;
+    }
+  </style>
+
+  <style>
+    #table3{
+      border: 1px solid black;
+      text-align:center;
+    }
+  </style>
+
+  <style>
+    #head {
+      background-color: gold;
+    }
+  </style>
+
+  <style>
+    #i, #ii, #iii, #iiii {
+      background-color: #80bdff;
+    }
+  </style>
+
+  <style>
+    #end, #end2 {
+      background-color: #538135;
+      border:2px solid black;
+      padding: 15px;
+    }
+  </style>
+
+  <style>
+    #end {
+      text-align:right;
+      border:2px solid black;
+      padding: 15px;
+    }
+  </style>
+
+</head>
+<body>
+<p>Перша таблиця:</p>
+
+<table border="1" id="table1">
+  <tr id="head">
+    <th style="width:10%" id="th11">№</th>
+    <th style="width:40%" id="th11">ПІБ</th>
+    <th style="width:25%" id="th11">Адреса</th>
+    <th id="th11">Телефон</th>
+  </tr>
+  <tr id="tr11">
+    <td id="i">1</td>
+    <td id="td11">ПІБ1</td>
+    <td id="td11">Адреса1</td>
+    <td id="td11">111111</td>
+  </tr>
+  <tr id="tr11">
+    <td id="ii">2</td>
+    <td id="td11">ПІБ2</td>
+    <td id="td11">Адреса1</td>
+    <td id="td11">222222</td>
+  </tr>
+  <tr id="tr11">
+    <td id="iii">3</td>
+    <td id="td11">ПІБ3</td>
+    <td id="td11">Адреса3</td>
+    <td id="td11">333333</td>
+  </tr>
+  <tr id="tr11">
+    <td id="iiii">4</td>
+    <td id="td11">ПІБ4</td>
+    <td id="td11">Адреса4</td>
+    <td id="td11">444444</td>
+  </tr id="tr11">
+  <tr>
+    <th colspan="3" id="end">Загальна кількість</th>
+    <th id="end2">4</th>
+  </tr>
+</table>
+
+<p>Друга таблиця:</p>
+
+<table border="1" id="table2">
+<thead>
+<tr id="tr2">
+  <th rowspan="2" id="th2" style="width:70px">номер</th>
+  <th colspan="2" id="th2" style="width:100px">теги</th>
+</tr>
+<tr id="tr2">
+<th id="th2" style="width:60px">тег</th>
+<th id="th2" style="width:200px">значення</th>
+</tr>
+</thead>
+  <tbody>
+  <tr id="tr2">
+    <td id="td2">1</td>
+    <td id="td2">p</td>
+    <td id="td2" rowspan="4">для тексту</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">2</td>
+    <td id="td2">a</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">3</td>
+    <td id="td2">b</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">4</td>
+    <td id="td2">i</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">5</td>
+    <td id="td2">table</td>
+    <td id="td2">таблиця</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">6</td>
+    <td id="td2">tr</td>
+    <td id="td2">ряд таблиці</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">7</td>
+    <td id="td2">td</td>
+    <td id="td2" rowspan="2" style="width:5px">комірки таблиці</td>
+  </tr>
+  <tr id="tr2">
+    <td id="td2">8</td>
+    <td id="td2">th</td>
+  </tr>
+  </tbody>
+</table>
+
+<p>Третя таблиця:</p>
+
+<table id="table3">
+<tr id="tr3">
+  <td rowspan="3" colspan="2" id="td3" style="width:80px">1</td>
+  <td colspan="2" id="td3" style="width:70px">2</td>
+  <td id="td3" style="width:30px">3</td>
+</tr>
+  <tr id="tr3">
+    <td colspan="3" id="td3" align="left">4</td>
+  </tr>
+  <tr id="tr3">
+    <td rowspan="4" id="td3">5</td>
+    <td id="td3">6</td>
+    <td id="td3">7</td>
+  </tr>
+  <tr id="tr3">
+    <td rowspan="2" id="td3">8</td>
+    <td rowspan="3" id="td3" align="left">9</td>
+  </tr>
+  <tr id="tr3">
+    <td rowspan="3" colspan="2" id="td3">10</td>
+  </tr>
+  </tr>
+  <tr id="tr3">
+    <td id="td3">11</td>
+  </tr>
+</table>
+
+<p>Четверта таблиця:</p>
+
+<table border="1">
+  <tr id="tr3">
+    <td rowspan="3" colspan="2" style="width:80px">1<img src="images/1car.jpg" width="115" height="115"></td>
+    <td colspan="2" style="width:70px"><img src="images/2car.png"  width="75" height="75">2</td>
+    <td style="width:30px"><img src="images/3car.jpg"  width="75" height="75">3</td>
+  </tr>
+  <tr>
+    <td colspan="3">4</td>
+  </tr>
+  <tr id="tr3">
+    <td rowspan="4">5</td>
+    <td>6</td>
+    <td>7</td>
+  </tr>
+  <tr id="tr3">
+    <td rowspan="2">8</td>
+    <td rowspan="3" align="left">9</td>
+  </tr>
+  <tr>
+    <td rowspan="3" colspan="2">10</td>
+  </tr>
+  <tr>
+    <td>11</td>
+  </tr>
+</table>
+</html>
+</body>
