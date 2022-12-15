@@ -1,0 +1,26 @@
+.first{
+    border-collapse: collapse;
+    width: 400px;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.number{
+    background-color: deepskyblue;
+    width: 10px;
+}
+
+.second{
+    border-collapse: collapse;
+    line-height: 3px;
+    width: 300px;
+    text-align: center;
+}
+
+.third{
+    border-collapse: collapse;
+    text-align: center;
+    width: 300px;
+}
