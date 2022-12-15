@@ -1,0 +1,37 @@
+table {
+    border: 1px solid black;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-collapse: collapse;
+    align-content: center;
+    justify-content: center;
+}
+tbody{
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.third{
+    height: 350px;
+    width: 400px;
+}
+.fourth{
+    height: 300px;
+    width: 400px;
+    border-collapse: separate;
+    padding: 0;
+}
+.fourth td{
+    text-align: left;
+}
+.fourth img{
+    position: relative;
+    float: right;
+    top: -30px;
+    right: -10px;
+}
