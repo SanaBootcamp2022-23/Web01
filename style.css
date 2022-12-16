@@ -1,0 +1,53 @@
+.line {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.end {
+    text-align: end;
+}
+
+thead {
+    background-color: sandybrown;
+}
+
+tbody {
+    background-color: lightgray;
+}
+
+    tbody td:nth-child(1) {
+        background-color: cadetblue;
+    }
+
+tfoot {
+    background-color: green;
+}
+
+caption {
+    text-align: start;
+}
+
+.no-effect {
+    background-color: white;
+}
+
+    .no-effect td:nth-child(1) {
+        background-color: white;
+    }
+
+.margin {
+    margin-top: 5px;
+}
+
+.center {
+    text-align: center;
+}
