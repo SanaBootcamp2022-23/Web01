@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>tables.html</title>
+  </head>
+  <body>
+    <p>Перша таблиця:</p>
+    <table border="1px" style="text-align: center">
+      <thead style="background-color: orange">
+        <tr>
+          <td style="width: 30px">№</td>
+          <td>ПІБ</td>
+          <td>Адреса</td>
+          <td>Телефон</td>
+        </tr>
+      </thead>
+      <tbody style="background-color: gray">
+        <tr>
+          <td style="background-color: cadetblue">1</td>
+          <td style="width: 70px">ПІБ1</td>
+          <td style="width: 100px">Адреса1</td>
+          <td style="width: 100px">Телефон1</td>
+        </tr>
+        <tr>
+          <td style="background-color: cadetblue">2</td>
+          <td>ПІБ2</td>
+          <td>Адреса2</td>
+          <td>Телефон2</td>
+        </tr>
+        <tr>
+          <td style="background-color: cadetblue">3</td>
+          <td>ПІБ3</td>
+          <td>Адреса3</td>
+          <td>Телефон3</td>
+        </tr>
+        <tr>
+          <td style="background-color: cadetblue">4</td>
+          <td>ПІБ4</td>
+          <td>Адреса4</td>
+          <td>Телефон4</td>
+        </tr>
+      </tbody>
+      <tfoot style="background-color: green">
+        <tr>
+          <td colspan="3">Кількість</td>
+          <td>4</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <p>Друга таблиця:</p>
+    <table border="1px" style="text-align: center">
+      <thead>
+        <tr>
+          <td rowspan="2">Номер</td>
+          <td colspan="2">Теги</td>
+        </tr>
+        <tr>
+          <td style="width: 50px">Тег</td>
+          <td style="width: 100px">Значення</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>р</td>
+          <td rowspan="4">для текста</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>a</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>b</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>i</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>table</td>
+          <td>таблица</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>tr</td>
+          <td>ряд таблиці</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>td</td>
+          <td rowspan="2">комірка таблиці</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>th</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Третя таблиця</p>
+    <table border="1" style="text-align: center">
+      <tr>
+        <td rowspan="3" colspan="3" style="width: 50px; height: 50px">1</td>
+        <td colspan="2" style="width: 50px; height: 50px">2</td>
+        <td style="width: 50px; height: 50px">3</td>
+      </tr>
+      <tr>
+        <td colspan="3">4</td>
+      </tr>
+      <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td rowspan="2" colspan="4">10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+      </tr>
+    </table>
+
+    <p>Четверта таблиця:</p>
+    <table border="1">
+      <tr>
+        <td rowspan="3" colspan="2">
+          1<img
+            src="https://img.freepik.com/free-vector/cute-cool-baby-holding-teddy-bear-doll-cartoon-vector-icon-illustration-people-holiday-isolated_138676-5356.jpg?w=2000"
+            width="70px"
+            height="70x"
+          />
+        </td>
+        <td colspan="2">
+          2<img
+            src="https://image.winudf.com/v2/image1/Y29tLm1vdmllZnVubnkuY2FydG9vbnZpZGVvX3NjcmVlbl8wXzE1OTc5NTQ4OTNfMDUy/screen-0.jpg?fakeurl=1&type=.webp"
+            width="100px"
+            height="70x"
+          />
+        </td>
+        <td>
+          3<img
+            src="https://m.media-amazon.com/images/I/61tgp9FI8kL._SL1375_.jpg"
+            width="70px"
+            height="70x"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">4</td>
+      </tr>
+      <tr>
+        <td rowspan="3">5</td>
+        <td>6</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td rowspan="2">9</td>
+        <td colspan="2" rowspan="2">10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+      </tr>
+    </table>
+  </body>
+</html>
