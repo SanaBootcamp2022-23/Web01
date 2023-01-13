@@ -3,176 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
     <link rel="stylesheet" href="tablesCSS.css">
 </head>
 <body>
-<h4>Перша таблиця</h4>
-<table id ="table1" style="width:40%">
-    <tr id ="trrE">
-        <th >№</th>
-        <th >ПІБ</th>
-        <th >Адреса</th>
-        <th >Телефон</th>
-    </tr>
-    <tr>
-        <td id ="trrF">1</td>
-        <td>ПІБ1</td>
-        <td>Адреса1</td>
-        <td>111111</td>
-    </tr>
-    <tr>
-        <td id ="trrF">2</td>
-        <td>ПІБ2</td>
-        <td>Адреса2</td>
-        <td>222222</td>
-    </tr>
-    <tr>
-        <td id ="trrF">3</td>
-        <td>ПІБ3</td>
-        <td>Адреса3</td>
-        <td>333333</td>
-    </tr>
-    <tr>
-        <td id ="trrF">4</td>
-        <td>ПІБ4</td>
-        <td>Адреса4</td>
-        <td>444444</td>
-    </tr>
-    <tr >
-
-        <th id ="trr3" colspan="3">Загальна кількість</th>
-        <th id ="trr">ПІБ</th>
-
-    </tr>
+<table class="table1">
+    <caption>Перша таблиця</caption>
+    <thead>
+        <tr >
+            <th >№</th>
+            <th >ПІБ</th>
+            <th >Адреса</th>
+            <th >Телефон</th>
+        </tr>
+    </thead>
+    <tbody class="tbody1">
+        <tr>
+            <td class="col" >1</td>
+            <td>ПІБ1</td>
+            <td>Адреса1</td>
+            <td>111111</td>
+        </tr>
+        <tr>
+            <td class="col" >2</td>
+            <td>ПІБ2</td>
+            <td>Адреса2</td>
+            <td>222222</td>
+        </tr>
+        <tr>
+            <td class="col">3</td>
+            <td>ПІБ3</td>
+            <td>Адреса3</td>
+            <td>333333</td>
+        </tr>
+        <tr>
+            <td class="col">4</td>
+            <td>ПІБ4</td>
+            <td>Адреса4</td>
+            <td>444444</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr >
+            <th colspan="3">Загальна кількість</th>
+            <th >ПІБ</th>
+        </tr> 
+    </tfoot>
+   
 </table>
-<h4>Друга таблиця</h4>
-<table id ="table2" style="width:40%">
+<table class="table2" >
+    <caption>Друга таблиця</caption>
     <tr >
         <th  rowspan="2">Номер</th>
         <th colspan="2">теги</th>
-
     </tr>
     <tr>
         <th >тег</th>
         <th>значение</th>
-
     </tr>
     <tr>
         <td >1</td>
         <td>p</td>
         <td rowspan="4" >для текста</td>
-
     </tr>
     <tr>
         <td >2</td>
         <td>a</td>
-
-
     </tr>
     <tr>
         <td >3</td>
         <td>b</td>
-
-
     </tr>
     <tr >
         <td >4</td>
         <td >i</td>
-
     </tr>
     <tr>
         <td >5</td>
         <td>table</td>
         <td  >для текста</td>
-
     </tr>
     <tr>
         <td >6</td>
-        <td>table</td>
+        <td>tr</td>
         <td  >для текста</td>
-
     </tr>
     <tr>
         <td >7</td>
-        <td>table</td>
+        <td>td</td>
         <td  rowspan="2">ячейки таблицы</td>
-
     </tr>
     <tr>
         <td >8</td>
-        <td>table</td>
-
-
+        <td>th</td>
     </tr>
 </table>
-<h4>Третя таблиця</h4>
-<table id ="table3" style="width:40%">
+<table class="table3">
+    <caption>Третя таблиця</caption>
     <tr >
-        <td style="height:150px" rowspan="3" colspan="2">1</td>
+        <td  rowspan="3" colspan="2">1</td>
         <td colspan="2">2</td>
-        <td style="height:50px" >3</td>
+        <td  >3</td>
     </tr>
     <tr>
-        <td style="height:50px" colspan="3" >4</td>
-
-
+        <td  colspan="3" >4</td>
     </tr>
     <tr>
-        <td style="height:200px" rowspan="3" >5</td>
+        <td rowspan="3">5</td>
         <td>6</td>
-        <td style="height:50px" >7</td>
-
+        <td >7</td>
     </tr>
     <tr>
         <td >8</td>
         <td rowspan="2">9</td>
         <td colspan="2" rowspan="2">10</td>
-
     </tr>
     <tr>
-        <td style="height:50px">11</td>
-
-
-
+        <td >11</td>
     </tr>
 </table>
-
-<h4>Четверта таблиця</h4>
-<table id ="table4" >
+<table class="table4" >
+    <caption>Четверта таблиця</caption>
     <tr >
-        <td style="height:150px" rowspan="3" colspan="2">1<img src="https://w3schoolsua.github.io/images/pic_trulli.jpg" alt="Trulli" width="130" height="80"></td>
-        <td colspan="2">2<img src="https://w3schoolsua.github.io/images/img_chania.jpg" alt="Квіти в Chania" width="160" height="90"></td>
-        <td style="height:50px" >3<img src="https://w3schoolsua.github.io/images/img_girl.jpg" alt="Квіти в Chania" width="70" height="90"></td>
+        <td rowspan="3" colspan="2">1<img src="images/1.jpg" alt="Naruto" width="130" ></td>
+        <td colspan="2">2<img src="images/2.jpg" alt="Naruto" width="160"></td>
+        <td>3<img src="images/3.jpg" alt="Naruto" width="70" ></td>
     </tr>
     <tr>
-        <td style="height:50px" colspan="3" >4</td>
-
-
+        <td colspan="3" >4</td>
     </tr>
     <tr>
-        <td style="height:200px" rowspan="3" >5</td>
+        <td rowspan="3" >5</td>
         <td>6</td>
-        <td style="height:50px" >7</td>
-
+        <td>7</td>
     </tr>
     <tr>
-        <td >8</td>
+        <td>8</td>
         <td rowspan="2">9</td>
         <td colspan="2" rowspan="2">10</td>
-
     </tr>
     <tr>
-        <td style="height:50px">11</td>
-
-
-
+        <td>11</td>
     </tr>
-
-
-
-
-
 </table>
 </body>
 </html>
